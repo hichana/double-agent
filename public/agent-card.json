@@ -1,0 +1,71 @@
+{
+  "name": "Double Agent",
+  "description": "Competitive intelligence on agent-economy companies. Tracks the x402 ecosystem (300+ companies) via the GitHub PR stream at github.com/coinbase/x402. Publishes structured JSONL datasets: company name, domain, category, PR status, GitHub author, agent-card presence, and enrichment metadata. Updated daily (diff) and weekly (full snapshot). Designed for autonomous purchase via x402 USDC on Base.",
+  "version": "0.1.0",
+  "url": "https://agentagent-9576.resolved.sh",
+  "default_input_modes": ["text"],
+  "default_output_modes": ["application/jsonl", "text/csv", "application/json"],
+  "capabilities": {
+    "streaming": false,
+    "push_notifications": false,
+    "state_transition_history": false
+  },
+  "skills": [
+    {
+      "id": "x402_ecosystem_full_index",
+      "name": "x402 Ecosystem — Full Company Index",
+      "description": "Complete JSONL snapshot of all companies tracked in the x402 GitHub ecosystem PR stream. Fields per record: company, domain, category, x402_pr, pr_status, pr_date, github_author, agent_native, agent_card_present, enrichment_date. Covers open, merged, closed, and draft PRs. ~300 companies. $2.00/download, weekly refresh.",
+      "tags": ["competitive-intelligence", "x402", "agent-economy", "company-data", "jsonl", "full-index"],
+      "examples": [
+        "Give me the full x402 ecosystem company index",
+        "Which companies are in the agent payment ecosystem?"
+      ]
+    },
+    {
+      "id": "x402_ecosystem_new_this_week",
+      "name": "x402 Ecosystem — New This Week",
+      "description": "Incremental JSONL diff containing only companies that first appeared in the x402 PR stream during the current week. Use for monitoring new entrants in real time. $0.50/download, weekly refresh.",
+      "tags": ["competitive-intelligence", "x402", "new-entrants", "weekly-diff", "jsonl"],
+      "examples": [
+        "Who joined the x402 ecosystem this week?",
+        "Show me new agent-economy companies"
+      ]
+    },
+    {
+      "id": "x402_ecosystem_merged_only",
+      "name": "x402 Ecosystem — Merged Only (vetted)",
+      "description": "Subset of the full index containing only companies whose x402 ecosystem PRs have been merged and accepted. These are verified, active x402 partners. ~214 companies. $1.00/download, weekly refresh.",
+      "tags": ["competitive-intelligence", "x402", "vetted", "merged", "verified", "jsonl"],
+      "examples": [
+        "Show me only verified x402 partners",
+        "Which companies have been accepted into x402?"
+      ]
+    },
+    {
+      "id": "x402_ecosystem_raw",
+      "name": "x402 Ecosystem — Raw (all statuses)",
+      "description": "Unfiltered JSONL export including open, merged, closed, draft, and rejected PRs. Maximum signal, minimum filtering. Includes companies that tried and were rejected — still real intelligence. ~302 entries. $1.50/download, weekly refresh.",
+      "tags": ["competitive-intelligence", "x402", "raw", "all-statuses", "unfiltered", "jsonl"],
+      "examples": [
+        "Give me the raw x402 ecosystem data including rejected PRs"
+      ]
+    }
+  ],
+  "provider": {
+    "name": "Double Agent",
+    "url": "https://agentagent-9576.resolved.sh"
+  },
+  "documentation_url": "https://agentagent-9576.resolved.sh/llms.txt",
+  "security_schemes": {
+    "x402": {
+      "type": "http",
+      "scheme": "bearer",
+      "description": "Pay per download via x402 USDC on Base. No account required. GET the dataset URL — receive 402 with X-PAYMENT-REQUIRED header if unpaid, then retry with payment proof. SDK: https://github.com/coinbase/x402"
+    },
+    "stripe": {
+      "type": "http",
+      "scheme": "bearer",
+      "description": "Credit card purchase via Stripe. Visit https://agentagent-9576.resolved.sh to buy directly."
+    }
+  }
+}
