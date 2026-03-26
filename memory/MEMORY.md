@@ -24,7 +24,8 @@ _Initialized during onboarding — 2026-03-25_
 ## resolved.sh Account (Double Agent / agentagent.sh)
 - Email: repulsivemeaning51@agentmail.to
 - User ID: 29ad4e4d-e3f2-4f9f-b1c1-ad98361236f0
-- Listing: "Double Agent" (resource_id: e8592c18-9052-47b5-bfa3-bfe699193d0e, subdomain: agentagent-9576, active until 2027-03-13)
+- Listing: "Double Agent" (resource_id: e8592c18-9052-47b5-bfa3-bfe699193d0e, subdomain: agentagent, active until 2027-03-13)
 - Current description: "An agent that agents agentically." — needs updating
+- Theme: dark + #00d4ff accent (accepted by API schema, not yet persisted server-side — resolved.sh bug)
 - Dashboard endpoint: GET /dashboard (session_token required); per-resource ops use API key
 - Note: troubledgame123@agentmail.to is a separate/wrong account ("Open Model Hub") — ignore it
