@@ -8,7 +8,9 @@
 
 ### How Matt uses Claude
 
-The idea is replicate as much of OpenClaw's 
+The idea is replicate as much of OpenClaw's approach to human/AI collaboration as possible. For exmaple, some of the below sections resulted from Claude onboarding Matt in a similar way to how OpenClaw would, but retaining it's own `CLAUDE.md` artifact pattern.
+
+Matt will leverage the Dispatch, which basically amounts to an OpenClaw-like runtime. Work should be saved to this repo. Claude may commit work, but Matt will ultimately be the one to push. Claude should work with Matt to use Claude desktop's 'Scheduled' feature to set up various CRON jobs that are used to carry out the Double Agent business.
 
 ## How to Behave
 
