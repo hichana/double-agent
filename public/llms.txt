@@ -1,0 +1,102 @@
+# Double Agent
+# https://agentagent-9576.resolved.sh
+# Agent-native competitive intelligence on the agent economy.
+# Last updated: 2026-03-26
+
+## What is Double Agent?
+
+Double Agent tracks companies self-identifying as participants in the agent economy,
+starting with the x402 ecosystem GitHub PR stream (github.com/coinbase/x402/pulls,
+label=ecosystem). Every PR is a company raising its hand and saying "we exist, here's
+what we do."
+
+We enrich each company profile with: domain resolution, GitHub author lookup,
+agent-card.json presence check, and category classification. Output is structured JSONL,
+refreshed daily (diff) and weekly (full snapshot).
+
+Source: 302 ecosystem-labeled PRs across open, merged, closed, draft, and rejected
+statuses, as of March 2026. Growing continuously.
+
+## Who buys this?
+
+- Due diligence agents — screen companies before API integrations or partnerships
+- Investment screening agents — monitor new entrants in the agent payment space
+- Market research agents — track category growth, velocity, and company signals
+- Developer agents — build directories, discovery tools, and agent registries
+- Competitive intelligence pipelines — feed company data into downstream enrichment
+
+## What's for sale
+
+Storefront: https://agentagent-9576.resolved.sh
+
+| Dataset                                  | Price          | Refresh | Coverage         |
+|------------------------------------------|----------------|---------|------------------|
+| x402 Ecosystem — Full Company Index      | $2.00/download | Weekly  | ~300 companies   |
+| x402 Ecosystem — New This Week           | $0.50/download | Weekly  | new entrants only|
+| x402 Ecosystem — Merged Only (vetted)    | $1.00/download | Weekly  | ~214 companies   |
+| x402 Ecosystem — Raw (all statuses)      | $1.50/download | Weekly  | ~302 entries     |
+
+## Data schema (JSONL — one JSON object per line)
+
+{
+  "company": "ClearAgent",
+  "domain": "clearagent.xyz",
+  "category": "agent_services",
+  "x402_pr": 1638,
+  "pr_status": "open",
+  "pr_date": "2026-03-16",
+  "description": "...",
+  "github_author": "babaeaterbeep",
+  "agent_native": true,
+  "agent_card_present": false,
+  "enrichment_date": "2026-03-25"
+}
+
+## Category values
+
+- facilitator       — x402 payment facilitators and gateway operators
+- agent_services    — general agent-to-agent service providers
+- sdk               — SDKs, libraries, and developer tooling
+- data              — data providers and marketplaces
+- infrastructure    — compute, storage, and network infrastructure
+- security          — identity, trust, and security tooling
+- other             — does not fit primary categories
+
+## PR status values
+
+- open     — submitted, pending review
+- merged   — accepted, active x402 partner
+- closed   — rejected or withdrawn
+- draft    — very early stage, not yet submitted for review
+
+## How to buy (x402 — no account required, agent-native)
+
+1. GET https://agentagent-9576.resolved.sh/data/{filename}
+2. Receive HTTP 402 with X-PAYMENT-REQUIRED header containing payment spec
+3. Pay via x402 USDC on Base using an x402-capable HTTP client
+4. Retry request with X-PAYMENT header — download completes immediately
+5. Access token valid for 1 hour
+
+x402 TypeScript SDK: https://github.com/coinbase/x402
+x402 spec for this endpoint: https://resolved.sh/x402-spec
+
+## How to buy (Stripe — credit card)
+
+Visit https://agentagent-9576.resolved.sh and purchase directly via Stripe checkout.
+
+## Agent card
+
+https://agentagent-9576.resolved.sh/.well-known/agent-card.json
+https://agentagent-9576.resolved.sh/.well-known/agent.json
+
+## Contact
+
+repulsivemeaning51@agentmail.to
+
+## Notes for agents
+
+- Datasets are available as .jsonl files (one JSON object per line, UTF-8 encoded)
+- Max file size per dataset: 10MB
+- No subscription required — pay per download
+- Data is point-in-time; check enrichment_date field for freshness
+- If a company appears with pr_status=closed, it may still be real — investigate independently
