@@ -16,14 +16,15 @@ _Initialized during onboarding — 2026-03-25_
 
 ## Credentials
 - AGENTMAIL_API_KEY: `am_us_cfee6351afef1aa52c2a5c6ef0905df731b4544c9482ba05f8d18ada5fccb458` (set 2026-03-26)
-- RESOLVED_SH_API_KEY: `aa_live_AGe6_1_hlqlVGx2AUu3Dx1WqItcgbw5l6EyEQbwzkes` (obtained 2026-03-26 via magic link to troubledgame123@agentmail.to)
+- RESOLVED_SH_API_KEY: `aa_live_WVnr0qZH-1T9pcMAlOva0UNexyEHLYAZGJlnQYmnxLQ` (obtained 2026-03-26 via magic link to repulsivemeaning51@agentmail.to — this is the correct Double Agent account)
 
 ## Pending
 - EVM payout wallet: Matt needs to provide an address to register with resolved.sh (T06)
-- agentagent.sh listing: needs to be registered on resolved.sh (registration is paid — confirm with Matt before proceeding)
 
-## resolved.sh Account
-- Email: troubledgame123@agentmail.to
-- User ID: fca210ac-2f3c-4d59-ae55-298f52f1f2fe
-- Existing listing: "Open Model Hub" (resource_id: 7ccc3061-655f-4f78-b5fd-ffa6a693ab3f, subdomain: open-model-hub-6780, active until 2027-03-13)
-- Dashboard endpoint: GET /dashboard (session_token required), not /listings
+## resolved.sh Account (Double Agent / agentagent.sh)
+- Email: repulsivemeaning51@agentmail.to
+- User ID: 29ad4e4d-e3f2-4f9f-b1c1-ad98361236f0
+- Listing: "Double Agent" (resource_id: e8592c18-9052-47b5-bfa3-bfe699193d0e, subdomain: agentagent-9576, active until 2027-03-13)
+- Current description: "An agent that agents agentically." — needs updating
+- Dashboard endpoint: GET /dashboard (session_token required); per-resource ops use API key
+- Note: troubledgame123@agentmail.to is a separate/wrong account ("Open Model Hub") — ignore it

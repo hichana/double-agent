@@ -25,8 +25,8 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 
 | ID | Task | Owner | Status | Notes |
 |----|------|-------|--------|-------|
-| T04 | Get RESOLVED_SH_API_KEY via email magic link | Matt | `[x]` | Done 2026-03-26; key: `aa_live_AGe6_1_h...` stored in memory |
-| T05 | Register agentagent.sh / Double Agent listing on resolved.sh | Matt | `[-]` | Blocked: registration is paid — needs Matt approval; existing listing is "Open Model Hub" (wrong name/content) |
+| T04 | Get RESOLVED_SH_API_KEY via email magic link | Matt | `[x]` | Done 2026-03-26; key: `aa_live_WVnr0qZH...` (repulsivemeaning51@agentmail.to account) |
+| T05 | Fix agentagent.sh listing (description, llms.txt, agent-card.json) | agent | `[ ]` | Listing exists: "Double Agent" at agentagent-9576.resolved.sh; description stale — update now |
 | T06 | Register EVM payout wallet with resolved.sh | Matt | `[ ]` | `POST /account/payout-address`; needs wallet address from Matt |
 | T07 | Upload first datasets and set prices (4 SKUs) | agent | `[-]` | Blocked on T04 + T01 |
 
