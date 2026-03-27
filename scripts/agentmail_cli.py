@@ -11,11 +11,16 @@ Usage:
 """
 
 import sys
+import os
 import json
 import textwrap
 from agentmail import AgentMail
 
-API_KEY = "am_us_cfee6351afef1aa52c2a5c6ef0905df731b4544c9482ba05f8d18ada5fccb458"
+API_KEY = os.environ.get("AGENTMAIL_API_KEY")
+if not API_KEY:
+    print("Error: AGENTMAIL_API_KEY not set in environment.")
+    print("  Source ~/.config/double-agent/.env before running this script.")
+    sys.exit(1)
 
 client = AgentMail(api_key=API_KEY)
 

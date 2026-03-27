@@ -15,8 +15,10 @@ _Initialized during onboarding — 2026-03-25_
 - Confirm only before irreversible actions; everything else: proceed and report
 
 ## Credentials
-- AGENTMAIL_API_KEY: `am_us_cfee6351afef1aa52c2a5c6ef0905df731b4544c9482ba05f8d18ada5fccb458` (set 2026-03-26)
-- RESOLVED_SH_API_KEY: `aa_live_WVnr0qZH-1T9pcMAlOva0UNexyEHLYAZGJlnQYmnxLQ` (obtained 2026-03-26 via magic link to repulsivemeaning51@agentmail.to — this is the correct Double Agent account)
+- Keys live in `~/.config/double-agent/.env` (machine-local, not in repo)
+- Load with: `source ~/.config/double-agent/.env` or `export $(cat ~/.config/double-agent/.env | xargs)`
+- AGENTMAIL_API_KEY: cycled 2026-03-27 (new key from Downloads/Untitled.rtf)
+- RESOLVED_SH_API_KEY: cycled 2026-03-27 via magic link to repulsivemeaning51@agentmail.to (label: double-agent-key)
 
 ## Pending
 - EVM payout wallet: Matt needs to provide an address to register with resolved.sh (T06)
