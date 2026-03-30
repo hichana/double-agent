@@ -1,0 +1,312 @@
+pr_number,title,state,submitter,submitter_repos,submitter_company,created_at,merged_at,updated_at,html_url,domain_primary,domain_secondary,category,description,tech_stack,has_agent_card,has_resolved_sh,has_llms_txt,scrape_title,scrape_desc,is_deprecation,notes,enriched
+1867,ecosystem: add SwarmX — multi-agent AI orchestration with x402 payments,open,ItachiDevv,27,,2026-03-28,,2026-03-29T23:27:41Z,https://github.com/coinbase/x402/pull/1867,x402-swarms-production.up.railway.app,,Services/Endpoints,"Multi-agent AI orchestration platform with 47 x402-gated endpoints on Solana mainnet. 10 categories including crypto analysis, DeFi, trading, research. Premium endpoints from $0.001–$5.00 USDC. 39 MCP tools, dual LLM (Gemini 2.5 Flash + GPT-4o).","USDC, Solana, TypeScript, Bun, @dexterai/x402@2.0.0, MCP, Gemini 2.5 Flash, GPT-4o",False,False,False,SwarmX — AI Agent Teams. One Payment.,"Try AI agent teams for contract audits, token risk analysis, and research — free, no wallet needed.",False,Railway-hosted deployment. npm: @itachisol/plugin-x402-swarms. GitHub: ItachiDevv/eliza-x402-swarms. Implements Kye Gomez's x402 monetization pattern.,True
+1865,Add Naro to ecosystem — flight data API for AI agents,open,lacrossehub,12,,2026-03-28,,2026-03-29T17:46:05Z,https://github.com/coinbase/x402/pull/1865,api.naro.com.ai,naro.com.ai,Services/Endpoints,"Real-time flight search and booking API for AI agents. Wraps 300+ airlines behind x402 micropayments at $0.02/search in USDC on Base. No API keys, no sign-up, no enterprise contracts.","USDC, Base, x402",False,False,False,Naro — Real-Time Flight Data for AI Agents,Flight search and booking infrastructure for AI agents. Real-time data from 300+ airlines via simple micropayments.,False,Submitter bio: 'js copy paster' — low signal GitHub profile. Clean domain naro.com.ai. $0.02/search via POST /api/flights/search.,True
+1864,Add APIMesh to ecosystem — 23 x402-payable API tools,closed,mbeato,13,,2026-03-28,,2026-03-30T00:09:32Z,https://github.com/coinbase/x402/pull/1864,apimesh.xyz,check.apimesh.xyz,Services/Endpoints,"23 web analysis APIs for AI agents: Core Web Vitals, Security Headers, SEO Audit, Tech Stack Detection, Email Verification, Email Security, Brand Assets, Redirect Chain, Indexability, and more. Pay per call USDC on Base. MCP server available.","USDC, Base, x402, MCP",False,False,True,APIMesh — Web Analysis APIs for AI Agents,"23 web analysis APIs for AI agents. Pay per call with x402 micropayments, Stripe MPP, or pre-paid API credits.",False,Closed (not merged) — superseded by #1855 (v1 unsigned commit) then re-submitted as #1864 with GPG-signed commit. MCP: @mbeato/apimesh-mcp-server. Smithery: apimesh-mcp-server. llms.txt confirmed 200.,True
+1858,Add HedgeAlphaOracle and EventAlphaOracle to ecosystem,open,Nurse2Web3,7,,2026-03-28,,2026-03-29T05:31:04Z,https://github.com/coinbase/x402/pull/1858,hedgealphaoracle-production.up.railway.app,eventalphaoraclecode-production.up.railway.app,Services/Endpoints,"Two oracle services: HedgeAlphaOracle (crypto/stock trading signals: sentiment, alpha, Fear & Greed, whale alerts, portfolio risk) and EventAlphaOracle (prediction market signals from 40+ sportsbooks + Polymarket/Kalshi). Multi-chain: Base, Monad, Hedera, Algorand.","USDC, Base, Monad, Hedera, Algorand, x402",False,False,False,HedgeAlphaOracle,,False,Two entries in one PR. Submitter bio: 'Nurse turned Web3 builder & educator'. Provider site: nurse2web3.com. Railway-hosted. Notable: multi-chain support beyond Base.,True
+1855,Add APIMesh to ecosystem,open,mbeato,13,,2026-03-27,,2026-03-29T02:03:07Z,https://github.com/coinbase/x402/pull/1855,apimesh.xyz,,Services/Endpoints,"22 x402-payable web analysis tools for AI agents including Core Web Vitals, Security Headers, SEO Audit, Tech Stack Detection, Email Verification, and more. Free /preview endpoints for testing.","USDC, Base, x402, MCP",False,False,True,APIMesh — Web Analysis APIs for AI Agents,"23 web analysis APIs for AI agents. Pay per call with x402 micropayments, Stripe MPP, or pre-paid API credits.",False,"Original APIMesh submission (v1, unsigned commit). Superseded by #1864 (GPG-signed). Still open/pending.",True
+1843,feat(ecosystem): add Rosud facilitator to ecosystem directory,closed,0xAxiom,0,,2026-03-27,,2026-03-29T09:59:54Z,https://github.com/coinbase/x402/pull/1843,api.rosud.com,,Facilitator,"AI agent payment infrastructure API abstracting Circle Programmable Wallets + EIP-3009 signature verification. Base mainnet and Sepolia. 0.1% fee, idempotency key support, full audit trail. Built by Kavin Kim.","USDC, Base, Base Sepolia, EIP-3009, Circle Programmable Wallets, x402",False,False,False,,,False,Closed (not merged). Submitter has 0 public repos — brand new account. Resolves issue #1827. GPG-signed commit.,True
+1838,feat(ecosystem): add Sperax facilitator and SperaxOS service,open,nirholas,78,,2026-03-26,,2026-03-28T10:25:14Z,https://github.com/coinbase/x402/pull/1838,x402.sperax.io,chat.sperax.io,Facilitator + Services/Endpoints,"x402 payment facilitator by SperaxOS enabling gasless USDC and USDs settlement on Base, Arbitrum, and Ethereum. AI-powered DeFi workspace where autonomous agents execute trades and manage yield.","USDC, USDs, EIP-3009, EIP-2612, Base, Arbitrum, Ethereum",False,False,True,SperaxOS,"SperaxOS is a programmable agent layer for DeFi, enabling autonomous capital execution, dynamic yield optimization",False,Two entries: sperax-facilitator (x402.sperax.io) and sperax (chat.sperax.io). llms.txt found at chat.sperax.io.,True
+1829,Add AgentBridge to ecosystem partners,open,tianzizhiming-svg,3,,2026-03-26,,2026-03-26T11:45:32Z,https://github.com/coinbase/x402/pull/1829,api.060504.shop,,Services/Endpoints,"Live x402 service for fetching Chinese web content (Xiaohongshu, Zhihu, etc.). Returns clean markdown, settled in USDC on Base via x402. $0.003/request.","USDC, Base, x402",False,False,False,AgentBridge,"Chinese web content API — returns clean markdown from Xiaohongshu, Zhihu, settled in USDC on Base",False,Submitter bio: 'Building the Chinese web data layer for AI Agents.' Domain is api.060504.shop (non-branded). Listed on 402index.io.,True
+1828,feat(ecosystem): add PolyLiberty — Polymarket AI prediction & analytics service,open,miinimes1,1,,2026-03-26,,2026-03-26T10:31:34Z,https://github.com/coinbase/x402/pull/1828,polyliberty.xyz,,Services/Endpoints,"Polymarket trading terminal routing attributed order flow through Polymarket's CLOB, combining real-time market data, AI signals, and social intelligence. 6 machine-payable API endpoints via x402 on Base.","USDC, WETH, USDT, Base, PayAI facilitator, x402",False,False,True,PolyLiberty - Polymarket Trading Terminal,"A non-custodial Polymarket trading terminal with attributed order routing, live market context, and execution-focused tools",False,PR body includes llms.txt link: https://polyliberty.xyz/llms.txt — confirmed 200. Treasury: 0x11FD3946B5040c48e707bC6185B56CF40B61E108. Only 1 repo on GitHub.,True
+1824,Add satoshidata.ai to x402 ecosystem,open,wrbtc,5,,2026-03-26,,2026-03-26T03:20:31Z,https://github.com/coinbase/x402/pull/1824,satoshidata.ai,,Services/Endpoints,"Bitcoin wallet intelligence API with native x402 USDC micropayments on Base. Agents query wallet summaries, analytics, and transaction verification — pay per call, no signup.","USDC, Base, Lightning (L402), x402, self-hosted facilitator",True,False,True,satoshidata.ai — Bitcoin Wallet Intelligence API,Bitcoin wallet intelligence,False,"High signal: agent-card.json 200 + llms.txt 200 at root domain. Endpoints: /v1/wallets/{address}/summary, /v1/wallets/{address}/detail, /v1/tx/verify ($0.01 each). Also supports L402.",True
+1822,Add UtilShed to ecosystem directory,open,KarlbottAgent,11,,2026-03-25,,2026-03-25T22:39:46Z,https://github.com/coinbase/x402/pull/1822,utilshed.com,,Services/Endpoints,"3 x402-powered APIs: SEO Audit ($0.05), Screenshot ($0.02), Health Check ($0.10) on Base mainnet USDC. CDP facilitator.","USDC, Base, CDP facilitator, x402, @x402/client",False,False,False,"UtilShed — Fast, Free Online Developer Tools","Free online tools for developers. JSON formatter, Base64 encoder, UUID generator, regex tester, JSON diff",False,Website describes free developer tools; x402 API layer is a separate monetized tier. Registered on x402scan.com.,True
+1821,feat(ecosystem): add Semagram to ecosystem partners,open,KivApple,,,2026-03-25,,2026-03-29T19:46:57Z,https://github.com/coinbase/x402/pull/1821,semagram.io,,Services/Endpoints,"Machine-to-machine global semantic search for Telegram communities. Discover Telegram channels, groups, and bots with metadata. REST API with GET /api/agent/search at $0.01 USDC per search. No API keys.","USDC, x402, TypeScript, Telegram API",False,False,False,Semagram,,False,Agent API docs at semagram.io/agent-api.md. GitHub rate-limited during enrichment — submitter repo count not available.,True
+1820,Add TokenSafe to ecosystem,open,ampactor,0,,2026-03-25,,2026-03-25T17:42:34Z,https://github.com/coinbase/x402/pull/1820,tokensafe-production.up.railway.app,,Services/Endpoints,"Solana token safety scanner with deterministic on-chain analysis. Analyzes mint/freeze authority, holder concentration, liquidity depth, honeypot risk — composite risk score 0–100. $0.008 USDC/call.","USDC, Solana, x402, Railway",False,False,False,Solana token safety scanner,Solana token safety scanner,False,Resubmission of #1386. Domain is a Railway deployment URL (no custom domain). Submitter has 0 public repos. Free /v1/check/lite endpoint available.,True
+1816,deprecating aurracloud facilitator from ecosystem,closed,ya7ya,60,@monemetrics,2026-03-25,2026-03-26T08:27:47Z,2026-03-26T08:27:48Z,https://github.com/coinbase/x402/pull/1816,aurracloud.com,,Facilitator,Removing aurracloud.com facilitator from ecosystem. Deprecation/removal PR.,,False,False,False,,,True,"Not a new ecosystem entry — this removes aurracloud facilitator. Submitter @ya7ya affiliated with @monemetrics, 60 repos.",True
+1801,feat(ecosystem): add MoltsPay payment SDK,closed,0xAxiom,25,,2026-03-25,,2026-03-25T01:55:09Z,https://github.com/coinbase/x402/pull/1801,moltspay.com,,Client-Side Integrations,"Comprehensive payment SDK for AI agents with x402/USDC support across Base, Polygon, Solana, BNB, Tempo. Gasless payments, A2A commerce, spending limits.","USDC, Base, Polygon, Solana, BNB, Tempo, x402, npm, PyPI",True,True,True,MoltsPay — payment SDK for AI agents,payment SDK for AI agents,False,High signal: agent-card.json + resolved.sh + llms.txt all 200. Multi-chain. Available on npm and PyPI. Submitted by prolific ecosystem contributor @0xAxiom (25 repos). GitHub: github.com/Yaqing2023/moltspay.,True
+1787,feat(ecosystem): add Yantrix AI marketplace to ecosystem directory,closed,0xAxiom,,,2026-03-24,,2026-03-24T06:24:46Z,https://github.com/coinbase/x402/pull/1787,,,,,,,,,,,,,False
+1780,Add Ultravioleta DAO facilitator to ecosystem directory,open,0xultravioleta,,,2026-03-24,,2026-03-24T03:40:30Z,https://github.com/coinbase/x402/pull/1780,,,,,,,,,,,,,False
+1771,Add Pyrimid + MYA to ecosystem directory,open,pyrimid,,,2026-03-23,,2026-03-23T17:26:42Z,https://github.com/coinbase/x402/pull/1771,,,,,,,,,,,,,False
+1766,Add Jordan Signal API to ecosystem,open,willcshanahan,,,2026-03-23,,2026-03-23T14:47:32Z,https://github.com/coinbase/x402/pull/1766,,,,,,,,,,,,,False
+1765,feat(ecosystem): add CardZero — AI agent payment wallet with x402 buyer support,open,mrocker,,,2026-03-23,,2026-03-23T13:23:42Z,https://github.com/coinbase/x402/pull/1765,,,,,,,,,,,,,False
+1763,Add monapi to ecosystem,open,DenisTheM,,,2026-03-23,,2026-03-25T08:55:07Z,https://github.com/coinbase/x402/pull/1763,,,,,,,,,,,,,False
+1756,feat(ecosystem): add DeepBlue Trading API,closed,0xAxiom,,,2026-03-23,,2026-03-23T01:20:06Z,https://github.com/coinbase/x402/pull/1756,,,,,,,,,,,,,False
+1754,Add Hodler DeFi Intelligence to ecosystem,open,Thiago-Mota-Santos,,,2026-03-22,,2026-03-22T19:34:07Z,https://github.com/coinbase/x402/pull/1754,,,,,,,,,,,,,False
+1753,Add DeepBlue Trading API to ecosystem,open,ERROR403agent,,,2026-03-22,,2026-03-22T20:03:37Z,https://github.com/coinbase/x402/pull/1753,,,,,,,,,,,,,False
+1750,feat(ecosystem): add Fronesis Labs — verifiable AI audit service with x402 payments,open,DariRinch,,,2026-03-22,,2026-03-22T14:12:16Z,https://github.com/coinbase/x402/pull/1750,,,,,,,,,,,,,False
+1747,feat: add brandontan.app to ecosystem (6 x402 APIs),closed,brandontan,,,2026-03-22,,2026-03-24T02:04:10Z,https://github.com/coinbase/x402/pull/1747,,,,,,,,,,,,,False
+1745,feat(site): add resolved.sh to ecosystem,open,hichana,,,2026-03-22,,2026-03-22T01:42:05Z,https://github.com/coinbase/x402/pull/1745,,,,,,,,,,,,,False
+1744,Add DeepBlue Trading API to ecosystem,open,ERROR403agent,,,2026-03-22,,2026-03-23T01:11:58Z,https://github.com/coinbase/x402/pull/1744,,,,,,,,,,,,,False
+1743,Add AgentLair to ecosystem,open,piiiico,,,2026-03-22,,2026-03-22T11:36:03Z,https://github.com/coinbase/x402/pull/1743,,,,,,,,,,,,,False
+1741,Add AgentLair to ecosystem directory,closed,piiiico,,,2026-03-22,,2026-03-22T00:33:37Z,https://github.com/coinbase/x402/pull/1741,,,,,,,,,,,,,False
+1740,Add Chief Research API to ecosystem,open,erikparr,,,2026-03-21,,2026-03-21T22:57:32Z,https://github.com/coinbase/x402/pull/1740,,,,,,,,,,,,,False
+1739,feat(ecosystem): add Satoshi API — Bitcoin data with x402 micropayments,open,Bortlesboat,,,2026-03-21,,2026-03-28T20:23:40Z,https://github.com/coinbase/x402/pull/1739,,,,,,,,,,,,,False
+1738,Add x402engine to ecosystem,open,agentc22,,,2026-03-21,,2026-03-21T19:53:33Z,https://github.com/coinbase/x402/pull/1738,,,,,,,,,,,,,False
+1735,ecosystem: add Satoshi API,closed,Bortlesboat,,,2026-03-21,,2026-03-21T14:42:03Z,https://github.com/coinbase/x402/pull/1735,,,,,,,,,,,,,False
+1734,feat: add Buzz BD Agent to ecosystem (Services/Endpoints),open,buzzbysolcex,,,2026-03-21,,2026-03-21T14:10:41Z,https://github.com/coinbase/x402/pull/1734,,,,,,,,,,,,,False
+1730,ecosystem: add x402-cfo — spend control plane for autonomous agent payments,closed,Upn-130guthub,,,2026-03-21,,2026-03-21T15:38:53Z,https://github.com/coinbase/x402/pull/1730,,,,,,,,,,,,,False
+1726,ecosystem: add Flow EVM x402 Facilitator,closed,lmcmz,,,2026-03-20,,2026-03-20T15:12:46Z,https://github.com/coinbase/x402/pull/1726,,,,,,,,,,,,,False
+1725,ecosystem: add Flow EVM x402 Facilitator,closed,lmcmz,,,2026-03-20,,2026-03-20T15:07:04Z,https://github.com/coinbase/x402/pull/1725,,,,,,,,,,,,,False
+1719,Add WalletIQ to x402 ecosystem,open,iJaack,,,2026-03-20,,2026-03-24T22:47:37Z,https://github.com/coinbase/x402/pull/1719,,,,,,,,,,,,,False
+1718,Add Addybook to x402 ecosystem,open,karelxfi,,,2026-03-20,,2026-03-20T11:32:49Z,https://github.com/coinbase/x402/pull/1718,,,,,,,,,,,,,False
+1716,Add integrity.molt — Ed25519-signed Solana security scanner (x402),open,Hans1132,,,2026-03-20,,2026-03-20T09:10:49Z,https://github.com/coinbase/x402/pull/1716,,,,,,,,,,,,,False
+1713,feat: add Accessibility Auditor to ecosystem,open,web3blind,,,2026-03-20,,2026-03-20T04:43:47Z,https://github.com/coinbase/x402/pull/1713,,,,,,,,,,,,,False
+1709,Add Strale to ecosystem — business data & compliance APIs,open,petterlindstrom79,,,2026-03-19,,2026-03-29T20:37:38Z,https://github.com/coinbase/x402/pull/1709,,,,,,,,,,,,,False
+1708,Add Strale metadata for business data APIs,closed,petterlindstrom79,,,2026-03-19,,2026-03-19T22:31:49Z,https://github.com/coinbase/x402/pull/1708,,,,,,,,,,,,,False
+1707,Add SWORN Trust Protocol ecosystem partner + sworn-trust extension,open,alexchenai,,,2026-03-19,,2026-03-20T13:43:44Z,https://github.com/coinbase/x402/pull/1707,,,,,,,,,,,,,False
+1706,ecosystem: add Dao DeGen — x402-gated AI oracle on Unichain,open,0xPotatoofdoom,,,2026-03-19,,2026-03-19T21:16:57Z,https://github.com/coinbase/x402/pull/1706,,,,,,,,,,,,,False
+1705,"feat(site): brand scroller, ecosystem search & UI refresh",closed,Must-be-Ash,,,2026-03-19,2026-03-20T05:49:30Z,2026-03-20T05:49:34Z,https://github.com/coinbase/x402/pull/1705,,,,,,,,,,,,,False
+1702,ecosystem: add x402-cfo - agent financial controller,open,Upn-130guthub,,,2026-03-19,,2026-03-19T17:21:31Z,https://github.com/coinbase/x402/pull/1702,,,,,,,,,,,,,False
+1701,"chore(site): add ecosystem partners, top section, and fix partner links",closed,ethanoroshiba,,,2026-03-19,,2026-03-19T20:02:26Z,https://github.com/coinbase/x402/pull/1701,,,,,,,,,,,,,False
+1700,ecosystem: add X.orb — 8-gate trust orchestration for AI agents,open,bidurkhatri,,,2026-03-19,,2026-03-19T18:42:45Z,https://github.com/coinbase/x402/pull/1700,,,,,,,,,,,,,False
+1698,site(ecosystem): add x402search — pay-per-search x402 API discovery,open,x402-index,,,2026-03-19,,2026-03-26T14:08:49Z,https://github.com/coinbase/x402/pull/1698,,,,,,,,,,,,,False
+1696,Add x402dash to ecosystem,open,alexis-zorba,,,2026-03-19,,2026-03-19T08:23:48Z,https://github.com/coinbase/x402/pull/1696,,,,,,,,,,,,,False
+1695,ecosystem: add JubJub — verified media ownership and social publishing,open,Aquaflans,,,2026-03-19,,2026-03-19T09:41:56Z,https://github.com/coinbase/x402/pull/1695,,,,,,,,,,,,,False
+1684,feat(ecosystem): add Agent Wallet SDK to ecosystem directory,open,up2itnow0822,,,2026-03-18,,2026-03-27T12:48:43Z,https://github.com/coinbase/x402/pull/1684,,,,,,,,,,,,,False
+1681,chore(site): add latest partners and remove endpoints category,closed,ethanoroshiba,,,2026-03-18,2026-03-18T23:57:11Z,2026-03-18T23:57:12Z,https://github.com/coinbase/x402/pull/1681,,,,,,,,,,,,,False
+1679,Add x402 Trust Score to ecosystem,open,andysalvo,,,2026-03-18,,2026-03-18T18:14:11Z,https://github.com/coinbase/x402/pull/1679,,,,,,,,,,,,,False
+1676,feat: add openpayment,open,vittominacori,,,2026-03-18,,2026-03-25T09:48:31Z,https://github.com/coinbase/x402/pull/1676,,,,,,,,,,,,,False
+1666,Add RelayZero to ecosystem directory,open,meltingpixelsai,,,2026-03-18,,2026-03-18T01:14:27Z,https://github.com/coinbase/x402/pull/1666,,,,,,,,,,,,,False
+1663,Add PreReason: Pre-Reasoned Context API,open,KalskiTheDan,,,2026-03-17,,2026-03-21T04:30:50Z,https://github.com/coinbase/x402/pull/1663,,,,,,,,,,,,,False
+1661,feat: add SputnikX to ecosystem,open,drivenbymyai-max,,,2026-03-17,,2026-03-17T20:50:10Z,https://github.com/coinbase/x402/pull/1661,,,,,,,,,,,,,False
+1660,feat: add `Built on Stellar` facilitator listing,closed,marcelosalloum,,,2026-03-17,2026-03-18T01:01:31Z,2026-03-18T19:34:50Z,https://github.com/coinbase/x402/pull/1660,,,,,,,,,,,,,False
+1656,ecosystem: add Arch Tools — x402 API hub with 58+ AI tools,closed,Deesmo,,,2026-03-17,,2026-03-17T13:03:20Z,https://github.com/coinbase/x402/pull/1656,,,,,,,,,,,,,False
+1651,ecosystem: add DRIP — research intelligence agent on Solana,open,cryptoeights,,,2026-03-17,,2026-03-17T04:18:13Z,https://github.com/coinbase/x402/pull/1651,,,,,,,,,,,,,False
+1650,Mcpkeeper ecosystem,open,dalenicholson,,,2026-03-17,,2026-03-17T02:16:50Z,https://github.com/coinbase/x402/pull/1650,,,,,,,,,,,,,False
+1649,Add ClawPurse to ecosystem — x402 HTTP 402 gateway on Cosmos/Neutaro,open,mhue-ai,,,2026-03-17,,2026-03-18T00:09:36Z,https://github.com/coinbase/x402/pull/1649,,,,,,,,,,,,,False
+1648,Clawpurse.ai,closed,mhue-ai,,,2026-03-17,,2026-03-17T00:10:29Z,https://github.com/coinbase/x402/pull/1648,,,,,,,,,,,,,False
+1647,feat(ecosystem): Add Arch Tools — 53 AI tools with x402 payments on Base,closed,Deesmo,,,2026-03-17,,2026-03-17T01:15:57Z,https://github.com/coinbase/x402/pull/1647,,,,,,,,,,,,,False
+1646,Add Arch Tools to x402 Ecosystem,closed,Deesmo,,,2026-03-17,,2026-03-17T01:17:25Z,https://github.com/coinbase/x402/pull/1646,,,,,,,,,,,,,False
+1644,ecosystem: update Agent Health Monitor description,closed,moonshot-cyber,,,2026-03-16,2026-03-17T01:21:18Z,2026-03-17T01:21:18Z,https://github.com/coinbase/x402/pull/1644,,,,,,,,,,,,,False
+1643,Add Arch Tools to x402 ecosystem — 58-tool API platform,closed,Deesmo,,,2026-03-16,,2026-03-17T01:17:40Z,https://github.com/coinbase/x402/pull/1643,,,,,,,,,,,,,False
+1638,feat: add ClearAgent to x402 ecosystem partners,open,babaeaterbeep,,,2026-03-16,,2026-03-16T16:57:06Z,https://github.com/coinbase/x402/pull/1638,,,,,,,,,,,,,False
+1632,Add Octav to x402 ecosystem,open,Charlie85270,,,2026-03-16,,2026-03-16T13:08:40Z,https://github.com/coinbase/x402/pull/1632,,,,,,,,,,,,,False
+1630,feat(ecosystem): add Agorion discovery network,closed,0xAxiom,,,2026-03-16,,2026-03-16T06:25:10Z,https://github.com/coinbase/x402/pull/1630,,,,,,,,,,,,,False
+1624,Add Satring to ecosystem directory,open,toadlyBroodle,,,2026-03-15,,2026-03-18T04:16:49Z,https://github.com/coinbase/x402/pull/1624,,,,,,,,,,,,,False
+1623,feat(ecosystem): add PanchangaAPI - Vedic Astrology API,closed,0xAxiom,,,2026-03-15,,2026-03-15T12:42:41Z,https://github.com/coinbase/x402/pull/1623,,,,,,,,,,,,,False
+1621,Add EnrichAPI to ecosystem - B2B lead intelligence API with x402 micropayments,closed,jojorgen,,,2026-03-15,,2026-03-16T08:39:37Z,https://github.com/coinbase/x402/pull/1621,,,,,,,,,,,,,False
+1620,Add Compintel x402-native API services to ecosystem,open,viraforge-ai,,,2026-03-15,,2026-03-15T10:15:27Z,https://github.com/coinbase/x402/pull/1620,,,,,,,,,,,,,False
+1619,Add GPU-Bridge to ecosystem — x402-native GPU inference for agents,open,fjnunezp75,,,2026-03-15,,2026-03-16T17:27:44Z,https://github.com/coinbase/x402/pull/1619,,,,,,,,,,,,,False
+1616,feat(ecosystem): add OMATrust entry to follow up on offer-receipt extension,closed,alftom,,,2026-03-15,2026-03-15T04:14:18Z,2026-03-15T04:14:18Z,https://github.com/coinbase/x402/pull/1616,,,,,,,,,,,,,False
+1614,Add PayCrow to ecosystem — escrow + trust layer for x402,closed,michu5696,,,2026-03-14,,2026-03-21T05:47:34Z,https://github.com/coinbase/x402/pull/1614,,,,,,,,,,,,,False
+1613,Add PayCrow to ecosystem listings,closed,michu5696,,,2026-03-14,,2026-03-14T20:44:37Z,https://github.com/coinbase/x402/pull/1613,,,,,,,,,,,,,False
+1611,Add Mercury Trust to ecosystem listings,open,kelm2021,,,2026-03-14,,2026-03-14T19:19:02Z,https://github.com/coinbase/x402/pull/1611,,,,,,,,,,,,,False
+1610,ecosystem: add GPU-Bridge (GPU-as-a-Service with native x402 payments),closed,fjnunezp75,,,2026-03-14,,2026-03-18T01:30:12Z,https://github.com/coinbase/x402/pull/1610,,,,,,,,,,,,,False
+1608,Add Silverback to ecosystem (facilitator + services),open,RidingLiquid,,,2026-03-14,,2026-03-19T12:32:41Z,https://github.com/coinbase/x402/pull/1608,,,,,,,,,,,,,False
+1606,Add NexusWeb3 Security API to ecosystem,open,nexusweb3dev,,,2026-03-14,,2026-03-25T18:05:59Z,https://github.com/coinbase/x402/pull/1606,,,,,,,,,,,,,False
+1605,feat: add SATP (Soulbound Agent Trust Protocol) to ecosystem,open,0xbrainkid,,,2026-03-14,,2026-03-14T13:00:21Z,https://github.com/coinbase/x402/pull/1605,,,,,,,,,,,,,False
+1604,feat(ecosystem): add GPU-Bridge as native x402 GPU inference provider,closed,fjnunezp75,,,2026-03-14,,2026-03-18T01:30:11Z,https://github.com/coinbase/x402/pull/1604,,,,,,,,,,,,,False
+1602,Add x402-proxy to ecosystem,closed,tenequm,,,2026-03-14,2026-03-15T04:16:19Z,2026-03-15T04:16:19Z,https://github.com/coinbase/x402/pull/1602,,,,,,,,,,,,,False
+1596,feat: add AgenticTotem partner integration including metadata and logo.,open,clacladev,,,2026-03-13,,2026-03-13T15:43:57Z,https://github.com/coinbase/x402/pull/1596,,,,,,,,,,,,,False
+1595,ecosystem: add KnowMint — x402 knowledge marketplace,open,Sou0327,,,2026-03-13,,2026-03-13T13:51:11Z,https://github.com/coinbase/x402/pull/1595,,,,,,,,,,,,,False
+1592,feat: add x402Scout and ScoutGate to ecosystem,open,rplryan,,,2026-03-13,,2026-03-13T12:03:46Z,https://github.com/coinbase/x402/pull/1592,,,,,,,,,,,,,False
+1591,feat: Add Elsa facilitator to ecosystem,closed,akadotsh,,,2026-03-13,2026-03-15T04:17:29Z,2026-03-15T04:17:30Z,https://github.com/coinbase/x402/pull/1591,,,,,,,,,,,,,False
+1590,Add Alby Bitcoin Facilitator,open,MoritzKa,,,2026-03-13,,2026-03-13T09:22:49Z,https://github.com/coinbase/x402/pull/1590,,,,,,,,,,,,,False
+1583,feat(tvm): add TON mechanism for exact payment scheme,open,ohld,,,2026-03-12,,2026-03-25T03:11:56Z,https://github.com/coinbase/x402/pull/1583,,,,,,,,,,,,,False
+1577,feat(ecosystem): add InsumerAPI to Infrastructure & Tooling,open,douglasborthwick-crypto,,,2026-03-12,,2026-03-30T02:56:09Z,https://github.com/coinbase/x402/pull/1577,,,,,,,,,,,,,False
+1574,Add Fast Network to x402 ecosystem as Infrastructure & Tooling,open,xc93,,,2026-03-12,,2026-03-13T02:28:19Z,https://github.com/coinbase/x402/pull/1574,,,,,,,,,,,,,False
+1571,Add AgentOracle to ecosystem — pay-per-query research API,open,TKCollective,,,2026-03-12,,2026-03-24T21:26:24Z,https://github.com/coinbase/x402/pull/1571,,,,,,,,,,,,,False
+1567,feat(ecosystem): add Valoria — x402 market intelligence,open,jamesrez,,,2026-03-11,,2026-03-16T19:46:45Z,https://github.com/coinbase/x402/pull/1567,,,,,,,,,,,,,False
+1564,feat: add Polygon mainnet to CDP Facilitator ecosystem entry on x402.org,closed,ethanoroshiba,,,2026-03-11,2026-03-11T17:08:14Z,2026-03-11T17:08:14Z,https://github.com/coinbase/x402/pull/1564,,,,,,,,,,,,,False
+1562,feat(ecosystem): add agentpay-mcp to client-side integrations,open,up2itnow0822,,,2026-03-11,,2026-03-11T15:51:21Z,https://github.com/coinbase/x402/pull/1562,,,,,,,,,,,,,False
+1561,feat(ecosystem): Add 3 APIs to ecosystem directory,closed,0xAxiom,,,2026-03-11,,2026-03-11T15:24:16Z,https://github.com/coinbase/x402/pull/1561,,,,,,,,,,,,,False
+1559,feat: add anybrowse to ecosystem,open,kc23go,,,2026-03-11,,2026-03-11T13:13:34Z,https://github.com/coinbase/x402/pull/1559,,,,,,,,,,,,,False
+1558,Add SkillMint to ecosystem,open,s87343472,,,2026-03-11,,2026-03-11T10:05:41Z,https://github.com/coinbase/x402/pull/1558,,,,,,,,,,,,,False
+1557,Add ag402 and token-rugcheck to x402 ecosystem,open,0xAllenDev,,,2026-03-11,,2026-03-11T07:46:43Z,https://github.com/coinbase/x402/pull/1557,,,,,,,,,,,,,False
+1555,Add Memory Nexus to ecosystem directory,open,KairosMobius,,,2026-03-11,,2026-03-11T05:30:24Z,https://github.com/coinbase/x402/pull/1555,,,,,,,,,,,,,False
+1553,feat: add three x402 APIs to ecosystem directory,closed,0xAxiom,,,2026-03-10,,2026-03-10T22:33:42Z,https://github.com/coinbase/x402/pull/1553,,,,,,,,,,,,,False
+1552,feat(ecosystem): Add WalletIQ — Wallet Intelligence API (Services/Endpoints),closed,iJaack,,,2026-03-10,2026-03-11T16:46:51Z,2026-03-11T16:46:52Z,https://github.com/coinbase/x402/pull/1552,,,,,,,,,,,,,False
+1548,Add OOBE Protocol & Synapse to ecosystem directory,closed,CryptoFamilyNFT,,,2026-03-10,2026-03-11T01:58:27Z,2026-03-11T01:58:27Z,https://github.com/coinbase/x402/pull/1548,,,,,,,,,,,,,False
+1546,fix: update Spraay website URL to docs page,closed,plagtech,,,2026-03-10,2026-03-10T07:15:21Z,2026-03-10T07:15:21Z,https://github.com/coinbase/x402/pull/1546,,,,,,,,,,,,,False
+1543,Add solana-pay-x402 to ecosystem (Infrastructure & Tooling),closed,sanniekwan1214,,,2026-03-10,2026-03-10T07:56:52Z,2026-03-10T07:56:52Z,https://github.com/coinbase/x402/pull/1543,,,,,,,,,,,,,False
+1541,Add Arch AI Tools to ecosystem,closed,Deesmo,,,2026-03-10,2026-03-17T19:45:36Z,2026-03-17T19:45:36Z,https://github.com/coinbase/x402/pull/1541,,,,,,,,,,,,,False
+1540,test: improve crypto portability and coverage in sign-in-with-x tests,closed,0xAxiom,,,2026-03-10,,2026-03-10T00:41:36Z,https://github.com/coinbase/x402/pull/1540,,,,,,,,,,,,,False
+1539,Add Stakevia to ecosystem (Client-Side Integrations),closed,sanniekwan1214,,,2026-03-10,2026-03-11T01:59:58Z,2026-03-11T01:59:58Z,https://github.com/coinbase/x402/pull/1539,,,,,,,,,,,,,False
+1538,Add Octomil to ecosystem (Services/Endpoints),closed,sbangalore,,,2026-03-10,2026-03-11T02:06:06Z,2026-03-11T02:06:06Z,https://github.com/coinbase/x402/pull/1538,,,,,,,,,,,,,False
+1537,Add settle402 facilitator to ecosystem,open,sbangalore,,,2026-03-09,,2026-03-11T01:54:20Z,https://github.com/coinbase/x402/pull/1537,,,,,,,,,,,,,False
+1536,feat: add SENTINEL AML/CFT compliance partner to x402 ecosystem,closed,INJprotocol,,,2026-03-09,,2026-03-12T12:11:51Z,https://github.com/coinbase/x402/pull/1536,,,,,,,,,,,,,False
+1535,feat: add anybrowse to ecosystem,closed,kc23go,,,2026-03-09,,2026-03-11T11:35:37Z,https://github.com/coinbase/x402/pull/1535,,,,,,,,,,,,,False
+1534,feat: add Social Intel API to ecosystem directory,closed,0xAxiom,,,2026-03-09,,2026-03-10T00:01:59Z,https://github.com/coinbase/x402/pull/1534,,,,,,,,,,,,,False
+1530,feat: add x402charity to ecosystem partners directory,closed,0xAxiom,,,2026-03-09,,2026-03-09T07:24:29Z,https://github.com/coinbase/x402/pull/1530,,,,,,,,,,,,,False
+1529,feat(ecosystem): Add 0xArchive facilitator,closed,0xFantomMenace,,,2026-03-09,2026-03-09T19:35:37Z,2026-03-09T19:35:37Z,https://github.com/coinbase/x402/pull/1529,,,,,,,,,,,,,False
+1528,Add MolTrust to ecosystem,open,MoltyCel,,,2026-03-09,,2026-03-23T11:10:09Z,https://github.com/coinbase/x402/pull/1528,,,,,,,,,,,,,False
+1525,Add SEC EDGAR and FDA Regulatory APIs to ecosystem,open,ocdigitalco,,,2026-03-08,,2026-03-10T01:41:11Z,https://github.com/coinbase/x402/pull/1525,,,,,,,,,,,,,False
+1524,feat: add x402bazaar.org to ecosystem — marketplace for monetized AI APIs,closed,Wintyx57,,,2026-03-08,,2026-03-08T23:03:25Z,https://github.com/coinbase/x402/pull/1524,,,,,,,,,,,,,False
+1523,feat: add x402 Bazaar to ecosystem,closed,Wintyx57,,,2026-03-08,,2026-03-09T19:31:36Z,https://github.com/coinbase/x402/pull/1523,,,,,,,,,,,,,False
+1522,feat(ecosystem): add AI Security Guard,closed,moebius-ansa,,,2026-03-08,2026-03-09T19:44:44Z,2026-03-09T19:44:45Z,https://github.com/coinbase/x402/pull/1522,,,,,,,,,,,,,False
+1521,ecosystem: add BV-7X Bitcoin oracle,open,Mischa0x,,,2026-03-08,,2026-03-09T19:30:44Z,https://github.com/coinbase/x402/pull/1521,,,,,,,,,,,,,False
+1520,ecosystem: add AgentEconomy Compliance API,open,Piwe,,,2026-03-08,,2026-03-21T05:05:41Z,https://github.com/coinbase/x402/pull/1520,,,,,,,,,,,,,False
+1518,feat: add Alpha AI Agent to ecosystem,open,airdrop-alpha,,,2026-03-08,,2026-03-10T07:46:13Z,https://github.com/coinbase/x402/pull/1518,,,,,,,,,,,,,False
+1517,Add Robtex to x402 ecosystem,closed,robtex,,,2026-03-08,2026-03-09T19:41:45Z,2026-03-09T19:41:46Z,https://github.com/coinbase/x402/pull/1517,,,,,,,,,,,,,False
+1515,Add Augur to the ecosystem directory,closed,JleviEderer,,,2026-03-08,2026-03-09T20:47:13Z,2026-03-09T20:49:57Z,https://github.com/coinbase/x402/pull/1515,,,,,,,,,,,,,False
+1513,Add Obol — x402-gated AI code generation (Services/Endpoints),closed,obol-sh,,,2026-03-08,2026-03-09T21:31:33Z,2026-03-13T02:58:53Z,https://github.com/coinbase/x402/pull/1513,,,,,,,,,,,,,False
+1509,feat: add ClawAgent to ecosystem,open,zaq2989,,,2026-03-07,,2026-03-12T18:12:28Z,https://github.com/coinbase/x402/pull/1509,,,,,,,,,,,,,False
+1505,feat: add agentwallet-sdk to ecosystem directory,closed,0xAxiom,,,2026-03-07,,2026-03-07T07:29:46Z,https://github.com/coinbase/x402/pull/1505,,,,,,,,,,,,,False
+1490,Add AskClaude to ecosystem,closed,pvega23,,,2026-03-07,2026-03-10T23:52:38Z,2026-03-10T23:52:38Z,https://github.com/coinbase/x402/pull/1490,,,,,,,,,,,,,False
+1486,Add ActionGate to x402 Ecosystem,closed,eddiedotdev,,,2026-03-06,2026-03-09T19:40:50Z,2026-03-09T19:40:50Z,https://github.com/coinbase/x402/pull/1486,,,,,,,,,,,,,False
+1483,"chore: update Spraay ecosystem listing (62 endpoints, GPU/Compute, Search/RAG)",closed,plagtech,,,2026-03-06,2026-03-09T19:38:34Z,2026-03-09T19:38:34Z,https://github.com/coinbase/x402/pull/1483,,,,,,,,,,,,,False
+1481,Add SENTINEL AML/CFT Compliance Intelligence to ecosystem,closed,INJprotocol,,,2026-03-06,,2026-03-09T21:26:12Z,https://github.com/coinbase/x402/pull/1481,,,,,,,,,,,,,False
+1480,Add Soundside to ecosystem — MCP-native AI media generation with x402,closed,hackthemarket,,,2026-03-06,2026-03-09T19:42:36Z,2026-03-09T19:42:36Z,https://github.com/coinbase/x402/pull/1480,,,,,,,,,,,,,False
+1478,Add Idapixl Cortex to ecosystem directory,closed,idapixl,,,2026-03-06,2026-03-10T23:51:10Z,2026-03-10T23:51:10Z,https://github.com/coinbase/x402/pull/1478,,,,,,,,,,,,,False
+1476,Add Azeth to x402 ecosystem — Infrastructure & Tooling,open,0xtus,,,2026-03-06,,2026-03-09T19:29:34Z,https://github.com/coinbase/x402/pull/1476,,,,,,,,,,,,,False
+1472,site(ecosystem): add Finance District Prism to Infrastructure & Tooling,open,rachidjarray-hk-qa-fdt,,,2026-03-06,,2026-03-09T19:29:29Z,https://github.com/coinbase/x402/pull/1472,,,,,,,,,,,,,False
+1462,Add Web3 Signals to ecosystem directory,open,manavaga,,,2026-03-05,,2026-03-09T19:29:23Z,https://github.com/coinbase/x402/pull/1462,,,,,,,,,,,,,False
+1457,Add Agent Action Receipt (AAR) spec — complementary trust layer for x402,open,Cyberweasel777,,,2026-03-05,,2026-03-09T19:29:18Z,https://github.com/coinbase/x402/pull/1457,,,,,,,,,,,,,False
+1456,Add Run402 to ecosystem,closed,MajorTal,,,2026-03-05,2026-03-10T23:54:38Z,2026-03-11T16:26:44Z,https://github.com/coinbase/x402/pull/1456,,,,,,,,,,,,,False
+1444,feat(ecosystem): update DJD Agent Score — production URL and expanded description,open,JacobsCounsel,,,2026-03-04,,2026-03-09T19:29:06Z,https://github.com/coinbase/x402/pull/1444,,,,,,,,,,,,,False
+1441,"feat: Add Swarmrails Bittensor x402 gateway to ecosystem""",open,wizerai1111,,,2026-03-04,,2026-03-09T19:14:04Z,https://github.com/coinbase/x402/pull/1441,,,,,,,,,,,,,False
+1440,feat: add FilX to x402 ecosystem (Services/Endpoints),open,filx-io,,,2026-03-04,,2026-03-09T19:28:53Z,https://github.com/coinbase/x402/pull/1440,,,,,,,,,,,,,False
+1438,ecosystem: add BotIndex — Crypto market intelligence API with predictive signals,open,Cyberweasel777,,,2026-03-04,,2026-03-18T17:05:55Z,https://github.com/coinbase/x402/pull/1438,,,,,,,,,,,,,False
+1435,Add DarthClaw VRF to ecosystem (Services/Endpoints),closed,amanning3390,,,2026-03-03,,2026-03-15T04:09:50Z,https://github.com/coinbase/x402/pull/1435,,,,,,,,,,,,,False
+1434,feat(ecosystem): Add payable.link to ecosystem,open,ilkaydnc,,,2026-03-03,,2026-03-04T09:38:20Z,https://github.com/coinbase/x402/pull/1434,,,,,,,,,,,,,False
+1431,Add x402 On-Chain Data API to ecosystem — Services/Endpoints,closed,0xEtherial,,,2026-03-03,,2026-03-15T04:09:30Z,https://github.com/coinbase/x402/pull/1431,,,,,,,,,,,,,False
+1426,Add Bloomfilter to ecosystem,closed,Eronmmer,,,2026-03-03,2026-03-03T21:54:18Z,2026-03-03T21:54:18Z,https://github.com/coinbase/x402/pull/1426,,,,,,,,,,,,,False
+1420,Add Agent Camo to ecosystem,closed,hunterg325,,,2026-03-03,2026-03-03T20:20:05Z,2026-03-03T20:20:05Z,https://github.com/coinbase/x402/pull/1420,,,,,,,,,,,,,False
+1415,Add Renderly — Web Content Extraction API,open,silent-architects,,,2026-03-02,,2026-03-03T19:14:43Z,https://github.com/coinbase/x402/pull/1415,,,,,,,,,,,,,False
+1414,Add x402drop to ecosystem directory,open,yujingr,,,2026-03-02,,2026-03-03T19:14:56Z,https://github.com/coinbase/x402/pull/1414,,,,,,,,,,,,,False
+1411,chore: update AgentlyHQ's new url,closed,gjj,,,2026-03-02,2026-03-02T07:43:59Z,2026-03-02T07:43:59Z,https://github.com/coinbase/x402/pull/1411,,,,,,,,,,,,,False
+1409,Add APIMesh to ecosystem,closed,mbeato,,,2026-03-02,,2026-03-29T02:02:32Z,https://github.com/coinbase/x402/pull/1409,,,,,,,,,,,,,False
+1403,feat(ecosystem): Add Agoragentic — Agent-to-Agent Marketplace with x402 Gateway,closed,rhein1,,,2026-03-01,2026-03-03T19:55:31Z,2026-03-17T02:26:26Z,https://github.com/coinbase/x402/pull/1403,,,,,,,,,,,,,False
+1400,Add OpenClaw MCP Tools to ecosystem,closed,yedanyagamiai-cmd,,,2026-03-01,,2026-03-08T07:21:38Z,https://github.com/coinbase/x402/pull/1400,,,,,,,,,,,,,False
+1399,feat(ecosystem): add Kevros AI governance gateway,closed,jmcgraw434,,,2026-03-01,2026-03-03T19:51:25Z,2026-03-03T19:51:25Z,https://github.com/coinbase/x402/pull/1399,,,,,,,,,,,,,False
+1397,feat: add SparkForge to ecosystem,closed,henry-ships,,,2026-02-28,,2026-03-15T04:08:38Z,https://github.com/coinbase/x402/pull/1397,,,,,,,,,,,,,False
+1396,feat(ecosystem): add EruditePay,open,EruditeIntelligence,,,2026-02-28,,2026-03-03T19:16:24Z,https://github.com/coinbase/x402/pull/1396,,,,,,,,,,,,,False
+1393,feat(ecosystem): add EruditePay,closed,EruditeIntelligence,,,2026-02-28,,2026-02-28T21:42:33Z,https://github.com/coinbase/x402/pull/1393,,,,,,,,,,,,,False
+1392,feat(ecosystem): add EruditePay,closed,EruditeIntelligence,,,2026-02-28,,2026-02-28T20:37:14Z,https://github.com/coinbase/x402/pull/1392,,,,,,,,,,,,,False
+1389,site(ecosystem): add Mycelia Signal to Services/Endpoints,closed,jonathanbulkeley,,,2026-02-28,2026-03-03T21:56:13Z,2026-03-03T21:56:13Z,https://github.com/coinbase/x402/pull/1389,,,,,,,,,,,,,False
+1386,Add TokenSafe to ecosystem,closed,ampactor,,,2026-02-28,,2026-03-03T20:07:51Z,https://github.com/coinbase/x402/pull/1386,,,,,,,,,,,,,False
+1385,Add HedgeAlphaOracle and EventAlphaOracle to x402 ecosystem,closed,Nurse2Web3,,,2026-02-28,,2026-03-15T04:07:38Z,https://github.com/coinbase/x402/pull/1385,,,,,,,,,,,,,False
+1382,Add AI Site Scorer to x402 ecosystem — pay-per-use AI/LLM readiness analyzer,closed,aleks1k,,,2026-02-27,,2026-03-15T04:07:10Z,https://github.com/coinbase/x402/pull/1382,,,,,,,,,,,,,False
+1381,ecosystem: add ClawPay MCP — non-custodial x402 payment layer for AI agents,closed,up2itnow0822,,,2026-02-27,2026-03-03T19:06:57Z,2026-03-03T19:06:58Z,https://github.com/coinbase/x402/pull/1381,,,,,,,,,,,,,False
+1374,Add twit.sh to x402 ecosystem,closed,etherlect,,,2026-02-27,2026-02-27T20:59:03Z,2026-03-02T04:31:16Z,https://github.com/coinbase/x402/pull/1374,,,,,,,,,,,,,False
+1365,feat: add Maiat Protocol to ecosystem (trust gate service),open,JhiNResH,,,2026-02-27,,2026-03-12T20:01:14Z,https://github.com/coinbase/x402/pull/1365,,,,,,,,,,,,,False
+1363,fix(ecosystem): correct tollbooth logo filename,closed,Loa212,,,2026-02-26,2026-02-26T20:44:59Z,2026-02-26T20:44:59Z,https://github.com/coinbase/x402/pull/1363,,,,,,,,,,,,,False
+1362,feat(ecosystem): add OmniAudit security scanner,closed,legarams,,,2026-02-26,,2026-03-15T04:05:06Z,https://github.com/coinbase/x402/pull/1362,,,,,,,,,,,,,False
+1361,feat: add Kurier to x402 ecosystem,closed,jmontesdeocanuez,,,2026-02-26,2026-02-26T18:54:06Z,2026-02-26T18:54:06Z,https://github.com/coinbase/x402/pull/1361,,,,,,,,,,,,,False
+1358,Add CryptoGuard to x402 ecosystem (Services/Endpoints),open,gpartin,,,2026-02-26,,2026-03-11T19:58:51Z,https://github.com/coinbase/x402/pull/1358,,,,,,,,,,,,,False
+1354,Add Laso Finance to x402 Ecosystem,closed,huntermonk,,,2026-02-26,2026-02-26T19:12:53Z,2026-02-26T19:12:53Z,https://github.com/coinbase/x402/pull/1354,,,,,,,,,,,,,False
+1353,Add Laso Finance to x402 ecosystem,closed,huntermonk,,,2026-02-26,,2026-02-26T05:21:06Z,https://github.com/coinbase/x402/pull/1353,,,,,,,,,,,,,False
+1352,feat(ecosystem): add Agent Economy — AI crypto intelligence API with x402 micropayments,closed,elnawk,,,2026-02-26,,2026-03-15T04:04:14Z,https://github.com/coinbase/x402/pull/1352,,,,,,,,,,,,,False
+1351,feat: add Aegis402 — pay-per-request blockchain security API for AI agents,closed,SwiftAdviser,,,2026-02-26,,2026-03-15T04:03:48Z,https://github.com/coinbase/x402/pull/1351,,,,,,,,,,,,,False
+1347,Add DiamondClaws DeFi Intelligence to ecosystem,closed,dillonaux,,,2026-02-26,2026-03-03T19:10:38Z,2026-03-03T19:10:38Z,https://github.com/coinbase/x402/pull/1347,,,,,,,,,,,,,False
+1342,ecosystem: add ClawPay MCP — non-custodial x402 payment layer for AI agents,closed,up2itnow0822,,,2026-02-25,,2026-02-27T05:47:05Z,https://github.com/coinbase/x402/pull/1342,,,,,,,,,,,,,False
+1341,Add WaveGuard to x402 ecosystem (Services/Endpoints),closed,gpartin,,,2026-02-25,,2026-03-08T09:24:42Z,https://github.com/coinbase/x402/pull/1341,,,,,,,,,,,,,False
+1335,Add PayRail402 to ecosystem,closed,rsquaredsolutions2026,,,2026-02-25,,2026-03-08T09:24:13Z,https://github.com/coinbase/x402/pull/1335,,,,,,,,,,,,,False
+1324,updated logo,closed,cal-cmd,,,2026-02-24,2026-02-25T02:15:09Z,2026-02-25T02:15:09Z,https://github.com/coinbase/x402/pull/1324,,,,,,,,,,,,,False
+1323,ecosystem: add Kimchi Premium API,closed,leadbrain,,,2026-02-24,,2026-03-08T09:23:57Z,https://github.com/coinbase/x402/pull/1323,,,,,,,,,,,,,False
+1321,"Add PlanetExpress to ecosystem - AI Agent Marketplace, Services/Endpoints",closed,timowhite88,,,2026-02-24,,2026-02-24T03:58:26Z,https://github.com/coinbase/x402/pull/1321,,,,,,,,,,,,,False
+1320,Add Farnsworth to ecosystem — agent infrastructure with x402 payments,closed,timowhite88,,,2026-02-24,2026-02-25T19:26:52Z,2026-02-25T19:26:52Z,https://github.com/coinbase/x402/pull/1320,,,,,,,,,,,,,False
+1319,ecosystem: add ZeroDarkThirty Agent Services,closed,ZerodarkthirtyHQ,,,2026-02-24,,2026-03-08T09:23:33Z,https://github.com/coinbase/x402/pull/1319,,,,,,,,,,,,,False
+1316,Add Bitrefill to x402 ecosystem,closed,wille,,,2026-02-23,2026-02-25T19:28:08Z,2026-02-25T19:28:08Z,https://github.com/coinbase/x402/pull/1316,,,,,,,,,,,,,False
+1315,Add Renderly — Web Content Extraction API,closed,silent-architects,,,2026-02-23,,2026-03-01T03:21:23Z,https://github.com/coinbase/x402/pull/1315,,,,,,,,,,,,,False
+1303,feat(ecosystem): add DJD Agent Score,closed,jacobsd32-cpu,,,2026-02-22,2026-02-25T19:26:24Z,2026-02-25T19:26:24Z,https://github.com/coinbase/x402/pull/1303,,,,,,,,,,,,,False
+1298,Add Ordiscan to ecosystem list,closed,t4t5,,,2026-02-22,2026-02-24T00:22:20Z,2026-02-24T00:22:20Z,https://github.com/coinbase/x402/pull/1298,,,,,,,,,,,,,False
+1292,Add Robtex to x402 ecosystem,closed,robtex,,,2026-02-21,,2026-03-08T09:23:13Z,https://github.com/coinbase/x402/pull/1292,,,,,,,,,,,,,False
+1291,Add Robtex to ecosystem directory,closed,robtex,,,2026-02-21,,2026-02-21T17:34:01Z,https://github.com/coinbase/x402/pull/1291,,,,,,,,,,,,,False
+1289,Add Algorand Ecosystem Resources,closed,emg110,,,2026-02-21,2026-02-23T09:19:23Z,2026-02-23T09:32:20Z,https://github.com/coinbase/x402/pull/1289,,,,,,,,,,,,,False
+1288,Add Verse — x402 micropayment-gated consultation service,closed,verseagent,,,2026-02-21,,2026-02-21T10:12:55Z,https://github.com/coinbase/x402/pull/1288,,,,,,,,,,,,,False
+1287,Add Verse — x402 calibrated prediction consultation service,closed,verseagent,,,2026-02-21,,2026-02-21T10:08:33Z,https://github.com/coinbase/x402/pull/1287,,,,,,,,,,,,,False
+1282,Add Price Watcher x402 listing + logo,closed,mooniesai,,,2026-02-21,,2026-02-23T01:15:03Z,https://github.com/coinbase/x402/pull/1282,,,,,,,,,,,,,False
+1281,Add Price Watcher x402 listing + logo,closed,mooniesai,,,2026-02-21,,2026-03-11T16:48:10Z,https://github.com/coinbase/x402/pull/1281,,,,,,,,,,,,,False
+1278,site(ecosystem): add Spraay x402 Gateway to Services/Endpoints,closed,plagtech,,,2026-02-20,2026-02-24T00:04:27Z,2026-02-24T00:04:27Z,https://github.com/coinbase/x402/pull/1278,,,,,,,,,,,,,False
+1270,Add AnyBrowse to Ecosystem,closed,kc23go,,,2026-02-20,,2026-03-09T19:51:41Z,https://github.com/coinbase/x402/pull/1270,,,,,,,,,,,,,False
+1263,Add MoonMaker to x402 ecosystem partners,open,Sol-agent,,,2026-02-20,,2026-02-24T15:36:20Z,https://github.com/coinbase/x402/pull/1263,,,,,,,,,,,,,False
+1259,Add Orac — AI agent security and trust scoring APIs,closed,Orac-G,,,2026-02-20,2026-02-25T19:27:43Z,2026-02-25T19:27:43Z,https://github.com/coinbase/x402/pull/1259,,,,,,,,,,,,,False
+1258,feat: Add THRYX to x402 ecosystem,closed,lordbasilaiassistant-sudo,,,2026-02-20,,2026-03-08T09:20:52Z,https://github.com/coinbase/x402/pull/1258,,,,,,,,,,,,,False
+1257,Add EntRoute to x402 ecosystem,closed,devtoship,,,2026-02-19,2026-02-23T10:48:54Z,2026-02-23T10:48:54Z,https://github.com/coinbase/x402/pull/1257,,,,,,,,,,,,,False
+1248,feat: Add xpay Facilitator to ecosystem,closed,sriakula1,,,2026-02-19,2026-02-25T14:43:39Z,2026-02-25T14:43:39Z,https://github.com/coinbase/x402/pull/1248,,,,,,,,,,,,,False
+1246,feat(ecosystem): add tollbooth - OSS x402 API gateway,closed,Loa212,,,2026-02-19,2026-02-26T19:51:12Z,2026-02-26T20:05:10Z,https://github.com/coinbase/x402/pull/1246,,,,,,,,,,,,,False
+1239,feat(ecosystem): add Pylon — x402-payable utility APIs for AI agents,closed,seanthorne10,,,2026-02-18,,2026-03-08T09:20:33Z,https://github.com/coinbase/x402/pull/1239,,,,,,,,,,,,,False
+1235,Add Rug Munch Intelligence to ecosystem (Services/Endpoints),closed,amarodeabreu,,,2026-02-18,2026-02-25T19:27:13Z,2026-02-25T19:27:14Z,https://github.com/coinbase/x402/pull/1235,,,,,,,,,,,,,False
+1227,Add PolicyLayer to ecosystem,closed,s-a-m-a-i,,,2026-02-17,,2026-03-08T09:20:05Z,https://github.com/coinbase/x402/pull/1227,,,,,,,,,,,,,False
+1221,ecosystem: add Ceaser Privacy Protocol,open,Zyra-V21,,,2026-02-17,,2026-02-18T00:48:17Z,https://github.com/coinbase/x402/pull/1221,,,,,,,,,,,,,False
+1217,Add Apollo Intelligence Network to ecosystem,closed,bnmbnmai,,,2026-02-17,,2026-03-15T04:01:51Z,https://github.com/coinbase/x402/pull/1217,,,,,,,,,,,,,False
+1216,feat: add Alfred's Digital Bazaar to ecosystem directory,closed,0xAxiom,,,2026-02-17,,2026-02-23T02:20:48Z,https://github.com/coinbase/x402/pull/1216,,,,,,,,,,,,,False
+1211,Update Moltalyzer description to v1.3.0 (3 feeds),closed,jcislo,,,2026-02-17,2026-02-18T00:34:21Z,2026-02-18T00:34:21Z,https://github.com/coinbase/x402/pull/1211,,,,,,,,,,,,,False
+1210,Update Moltalyzer ecosystem description for v1.3.0,closed,jcislo,,,2026-02-17,,2026-02-17T05:50:38Z,https://github.com/coinbase/x402/pull/1210,,,,,,,,,,,,,False
+1207,ecosystem: add Agent Health Monitor,closed,moonshot-cyber,,,2026-02-16,2026-03-12T20:19:59Z,2026-03-12T20:19:59Z,https://github.com/coinbase/x402/pull/1207,,,,,,,,,,,,,False
+1205,specs: add zk-relay scheme for privacy-preserving ZK payments,open,Zyra-V21,,,2026-02-16,,2026-02-17T18:07:36Z,https://github.com/coinbase/x402/pull/1205,,,,,,,,,,,,,False
+1199,feat(ecosystem): add Pylon — 10+ x402-payable utility APIs for AI agents,closed,seanthorne10,,,2026-02-16,,2026-02-18T20:39:47Z,https://github.com/coinbase/x402/pull/1199,,,,,,,,,,,,,False
+1197,Add PriceWatcher Ecomm Price Monitor API to x402 Ecosystem,closed,mooniesai,,,2026-02-16,,2026-02-19T17:59:06Z,https://github.com/coinbase/x402/pull/1197,,,,,,,,,,,,,False
+1194,Add Postera to ecosystem - AI agent publishing platform,closed,0xAxiom,,,2026-02-15,2026-02-18T00:32:04Z,2026-02-18T00:32:04Z,https://github.com/coinbase/x402/pull/1194,,,,,,,,,,,,,False
+1192,Add Rug Munch Intelligence to ecosystem,closed,amarodeabreu,,,2026-02-15,,2026-02-18T17:12:28Z,https://github.com/coinbase/x402/pull/1192,,,,,,,,,,,,,False
+1190,Add serve402 to ecosystem — multi-service x402 agent gateway,closed,frank-clawd,,,2026-02-14,,2026-03-04T15:23:00Z,https://github.com/coinbase/x402/pull/1190,,,,,,,,,,,,,False
+1188,Add the fretchen  facilitator to ecosystem,closed,fretchen,,,2026-02-14,2026-02-16T17:28:57Z,2026-02-16T17:28:57Z,https://github.com/coinbase/x402/pull/1188,,,,,,,,,,,,,False
+1187,Add CrossFin to ecosystem directory,closed,bubilife1202,,,2026-02-14,,2026-03-08T09:08:14Z,https://github.com/coinbase/x402/pull/1187,,,,,,,,,,,,,False
+1185,Add DropClaw to ecosystem — encrypted on-chain storage for AI agents,closed,timowhite88,,,2026-02-14,,2026-02-24T03:56:49Z,https://github.com/coinbase/x402/pull/1185,,,,,,,,,,,,,False
+1184,Add DropClaw to ecosystem — encrypted on-chain storage for AI agents,closed,timowhite88,,,2026-02-14,,2026-02-14T06:01:31Z,https://github.com/coinbase/x402/pull/1184,,,,,,,,,,,,,False
+1178,Add Agnic.AI project to the ecosystem list,closed,mahdi,,,2026-02-13,2026-02-14T22:25:15Z,2026-02-14T22:25:15Z,https://github.com/coinbase/x402/pull/1178,,,,,,,,,,,,,False
+1174,Add ForgeElf to Ecosystem (Services/Endpoints),closed,0xcipherbot,,,2026-02-13,,2026-02-27T03:14:37Z,https://github.com/coinbase/x402/pull/1174,,,,,,,,,,,,,False
+1170,Add RelAI Facilitator to ecosystem,closed,web3luka,,,2026-02-12,2026-02-13T07:34:52Z,2026-02-13T07:34:52Z,https://github.com/coinbase/x402/pull/1170,,,,,,,,,,,,,False
+1167,Add invy to ecosystem,closed,illahi,,,2026-02-12,2026-02-12T04:35:42Z,2026-02-12T04:35:42Z,https://github.com/coinbase/x402/pull/1167,,,,,,,,,,,,,False
+1162,feat(ecosystem): add xbird — BYOA Twitter/X API,closed,checkra1neth,,,2026-02-11,,2026-03-08T09:07:43Z,https://github.com/coinbase/x402/pull/1162,,,,,,,,,,,,,False
+1160,Add MerchantGuard to ecosystem directory,closed,MerchantGuardOps,,,2026-02-11,2026-02-14T00:12:00Z,2026-02-14T00:12:01Z,https://github.com/coinbase/x402/pull/1160,,,,,,,,,,,,,False
+1151,Add ouchanip x402 APIs to ecosystem,closed,ouchanip,,,2026-02-11,2026-02-12T16:41:19Z,2026-02-12T16:41:19Z,https://github.com/coinbase/x402/pull/1151,,,,,,,,,,,,,False
+1150,feat: Add Text-2-ICS to x402 ecosystem,closed,citrus-claw,,,2026-02-10,,2026-03-02T13:06:52Z,https://github.com/coinbase/x402/pull/1150,,,,,,,,,,,,,False
+1147,add: ClawdVine (services / endpoints),closed,imthatcarlos,,,2026-02-10,2026-02-10T23:25:11Z,2026-02-10T23:25:12Z,https://github.com/coinbase/x402/pull/1147,,,,,,,,,,,,,False
+1146,Add Moltalyzer to ecosystem,closed,jcislo,,,2026-02-10,2026-02-10T23:29:18Z,2026-02-10T23:29:18Z,https://github.com/coinbase/x402/pull/1146,,,,,,,,,,,,,False
+1144,Add Foldset to Ecosystem,closed,rfradkin-foldset,,,2026-02-10,2026-02-10T23:33:43Z,2026-02-10T23:33:43Z,https://github.com/coinbase/x402/pull/1144,,,,,,,,,,,,,False
+1143,Add MerchantGuard to ecosystem directory,closed,ghost,,,2026-02-10,,2026-02-12T04:29:28Z,https://github.com/coinbase/x402/pull/1143,,,,,,,,,,,,,False
+1141,Add dTelecom STT to ecosystem,closed,fffilimonov,,,2026-02-10,2026-02-10T17:27:51Z,2026-02-10T17:27:51Z,https://github.com/coinbase/x402/pull/1141,,,,,,,,,,,,,False
+1137,Add x402engine to ecosystem directory,closed,agentc22,,,2026-02-10,2026-02-14T00:11:26Z,2026-02-14T00:11:26Z,https://github.com/coinbase/x402/pull/1137,,,,,,,,,,,,,False
+1135,Add MerchantGuard to ecosystem directory,closed,ghost,,,2026-02-09,,2026-02-10T17:13:53Z,https://github.com/coinbase/x402/pull/1135,,,,,,,,,,,,,False
+1129,feat: add Signet to ecosystem,closed,h1-hunt,,,2026-02-09,,2026-03-08T09:07:23Z,https://github.com/coinbase/x402/pull/1129,,,,,,,,,,,,,False
+1126,Add JOULE Compute to ecosystem,closed,lumenbro,,,2026-02-09,,2026-03-01T03:53:21Z,https://github.com/coinbase/x402/pull/1126,,,,,,,,,,,,,False
+1124,feat(ecosystem): Add emoji.today — daily emoji election with x402 voting,closed,bill-makes,,,2026-02-09,,2026-03-01T03:53:09Z,https://github.com/coinbase/x402/pull/1124,,,,,,,,,,,,,False
+1123,Add OpSpawn Agent Payment Gateway to ecosystem,closed,fl-sean03,,,2026-02-09,,2026-02-10T17:16:29Z,https://github.com/coinbase/x402/pull/1123,,,,,,,,,,,,,False
+1119,feat: Add x402 Engine to ecosystem showcase,closed,agentc22,,,2026-02-08,,2026-02-10T22:53:40Z,https://github.com/coinbase/x402/pull/1119,,,,,,,,,,,,,False
+1117,Add PaySentry to ecosystem,closed,mkmkkkkk,,,2026-02-07,,2026-03-01T03:52:52Z,https://github.com/coinbase/x402/pull/1117,,,,,,,,,,,,,False
+1116,feat(ecosystem): Add Protogen Weather API - AI agent-built x402 service,closed,maximus-claw,,,2026-02-07,,2026-03-01T03:52:04Z,https://github.com/coinbase/x402/pull/1116,,,,,,,,,,,,,False
+1114,Add Primev FastRPC facilitator to ecosystem,closed,techgangboss,,,2026-02-07,,2026-03-01T03:51:37Z,https://github.com/coinbase/x402/pull/1114,,,,,,,,,,,,,False
+1108,Add KAMIYO to ecosystem,closed,kamiyo-ai,,,2026-02-06,2026-02-11T17:07:02Z,2026-02-11T17:07:02Z,https://github.com/coinbase/x402/pull/1108,,,,,,,,,,,,,False
+1096,Add x402lint to ecosystem,closed,rawgroundbeef,,,2026-02-05,2026-02-06T00:01:44Z,2026-02-06T00:01:44Z,https://github.com/coinbase/x402/pull/1096,,,,,,,,,,,,,False
+1095,Arbitrage edge,closed,lobsterbar2027-boop,,,2026-02-05,,2026-03-16T21:22:37Z,https://github.com/coinbase/x402/pull/1095,,,,,,,,,,,,,False
+1086,Add dotfile.sg x402 services (20 AI endpoints),closed,dotfile-adam,,,2026-02-05,,2026-02-05T00:46:32Z,https://github.com/coinbase/x402/pull/1086,,,,,,,,,,,,,False
+1084,Add Max's x402 LLM API to ecosystem,closed,AImaxAImax,,,2026-02-04,,2026-02-23T01:53:37Z,https://github.com/coinbase/x402/pull/1084,,,,,,,,,,,,,False
+1082,feat: auor.io ecosystem partner,closed,hvolschenk,,,2026-02-03,2026-02-04T01:44:30Z,2026-02-04T01:44:47Z,https://github.com/coinbase/x402/pull/1082,,,,,,,,,,,,,False
+1080,Arbitrage edge,closed,lobsterbar2027-boop,,,2026-02-03,,2026-02-03T19:22:14Z,https://github.com/coinbase/x402/pull/1080,,,,,,,,,,,,,False
+1078,svg -> png logo change,closed,cal-cmd,,,2026-02-03,2026-02-04T02:28:46Z,2026-02-04T02:28:46Z,https://github.com/coinbase/x402/pull/1078,,,,,,,,,,,,,False
+1077,--fix: change 0xmeta logo,closed,0xmetaHQ,,,2026-02-03,2026-02-03T15:20:25Z,2026-02-03T15:20:25Z,https://github.com/coinbase/x402/pull/1077,,,,,,,,,,,,,False
+1073,changed logos,closed,cal-cmd,,,2026-02-03,2026-02-03T02:33:59Z,2026-02-03T03:00:58Z,https://github.com/coinbase/x402/pull/1073,,,,,,,,,,,,,False
+1069,Arbitrage edge,closed,lobsterbar2027-boop,,,2026-02-02,,2026-02-03T02:29:01Z,https://github.com/coinbase/x402/pull/1069,,,,,,,,,,,,,False
+1066,Add Agent Church to x402 ecosystem,closed,BitBrujo,,,2026-02-02,,2026-02-23T01:52:31Z,https://github.com/coinbase/x402/pull/1066,,,,,,,,,,,,,False
+1061,feat: Add V402Pay metadata and logo for x402 ecosystem,closed,oreoft,,,2026-01-30,2026-02-23T23:28:13Z,2026-02-23T23:28:13Z,https://github.com/coinbase/x402/pull/1061,,,,,,,,,,,,,False
+1060,feat: Add x402-watch to ecosystem partners,closed,logiccrafterdz,,,2026-01-30,2026-02-05T00:52:52Z,2026-02-05T00:52:52Z,https://github.com/coinbase/x402/pull/1060,,,,,,,,,,,,,False
+1059,Add ArbitrageEdge Sports Arbitrage API to x402 Ecosystem,closed,lobsterbar2027-boop,,,2026-01-30,,2026-02-03T01:08:34Z,https://github.com/coinbase/x402/pull/1059,,,,,,,,,,,,,False
+1058,Add x402 Playground to Ecosystem,closed,Zlerp,,,2026-01-30,2026-01-30T20:29:22Z,2026-01-30T20:29:22Z,https://github.com/coinbase/x402/pull/1058,,,,,,,,,,,,,False
+1055,P-Link x402 MCP,open,paracetamol951,,,2026-01-30,,2026-03-25T09:59:32Z,https://github.com/coinbase/x402/pull/1055,,,,,,,,,,,,,False
+1047,feat(ecosystem): add zauth - trust infrastructure for x402,closed,zauthofficial,,,2026-01-29,2026-02-03T02:03:33Z,2026-02-03T02:03:37Z,https://github.com/coinbase/x402/pull/1047,,,,,,,,,,,,,False
+1046,added adprompt metadata and logo,closed,cal-cmd,,,2026-01-29,2026-02-01T13:01:09Z,2026-02-01T13:01:09Z,https://github.com/coinbase/x402/pull/1046,,,,,,,,,,,,,False
+1045,Add Primer SDK to existing Primer ecosystem listing,closed,primersystems-dev,,,2026-01-28,2026-01-29T17:54:19Z,2026-01-29T17:54:19Z,https://github.com/coinbase/x402/pull/1045,,,,,,,,,,,,,False
+1043,feat: add agently to x402 ecosystem,closed,gjj,,,2026-01-28,2026-01-28T16:01:49Z,2026-01-28T16:01:49Z,https://github.com/coinbase/x402/pull/1043,,,,,,,,,,,,,False
+1040,Added Primer Pay to Client-side Integrations,closed,primersystems-dev,,,2026-01-27,2026-01-28T16:07:26Z,2026-01-28T16:07:27Z,https://github.com/coinbase/x402/pull/1040,,,,,,,,,,,,,False
+1034,Ecosystem: Update facilitator cards to optionally include facilitator addresses,closed,notorious-d-e-v,,,2026-01-27,2026-01-27T12:49:36Z,2026-01-27T12:49:36Z,https://github.com/coinbase/x402/pull/1034,,,,,,,,,,,,,False
+1022,Add Einstein AI to ecosystem partners,closed,ChuXo,,,2026-01-24,2026-01-28T16:15:11Z,2026-01-28T16:15:11Z,https://github.com/coinbase/x402/pull/1022,,,,,,,,,,,,,False
+1018,fix: (Kobaru Facilitator) removed stray character causing JSON parsing error,closed,fabriciogava,,,2026-01-23,2026-01-23T18:11:56Z,2026-01-23T18:11:56Z,https://github.com/coinbase/x402/pull/1018,,,,,,,,,,,,,False
+998,Add SocioLogic to the x402 ecosystem,closed,SocioLogicAI,,,2026-01-21,2026-01-23T20:40:42Z,2026-01-23T20:40:42Z,https://github.com/coinbase/x402/pull/998,,,,,,,,,,,,,False
+996,feat: add P402 as Facilitator,open,Z333Q,,,2026-01-20,,2026-02-18T00:07:29Z,https://github.com/coinbase/x402/pull/996,,,,,,,,,,,,,False
+994,Add x402r to ecosystem,closed,vraspar,,,2026-01-20,2026-01-20T20:51:47Z,2026-01-20T20:51:47Z,https://github.com/coinbase/x402/pull/994,,,,,,,,,,,,,False
+992,feat: Add Exo-Mariner App to Ecosystem,closed,whiskerspop,,,2026-01-19,,2026-02-06T14:48:39Z,https://github.com/coinbase/x402/pull/992,,,,,,,,,,,,,False
+990,Add ICPAY to ecosystem,closed,Kixo,,,2026-01-19,2026-01-28T21:43:15Z,2026-01-28T21:43:18Z,https://github.com/coinbase/x402/pull/990,,,,,,,,,,,,,False
+989,Adding OMNI-ORACLE to the ecosystem,closed,Multi-DAC,,,2026-01-19,,2026-01-21T07:48:55Z,https://github.com/coinbase/x402/pull/989,,,,,,,,,,,,,False
+986,Add SolPay to ecosystem,closed,benniethedev,,,2026-01-17,2026-01-19T20:04:54Z,2026-01-19T20:04:54Z,https://github.com/coinbase/x402/pull/986,,,,,,,,,,,,,False
+973,Add AutoIncentive Facilitator to ecosystem,closed,Concorde89,,,2026-01-16,2026-01-16T02:37:26Z,2026-01-16T02:37:26Z,https://github.com/coinbase/x402/pull/973,,,,,,,,,,,,,False
+971,feat(ecosystem): Add QuantumShield API to Services/Endpoints,closed,mbennett-labs,,,2026-01-15,2026-02-23T23:31:00Z,2026-02-23T23:31:00Z,https://github.com/coinbase/x402/pull/971,,,,,,,,,,,,,False
+970,Add Dexter to ecosystem,closed,BranchManager69,,,2026-01-15,2026-01-16T19:45:11Z,2026-01-16T19:45:11Z,https://github.com/coinbase/x402/pull/970,,,,,,,,,,,,,False
+969,Feat: BlackSwan Added to Ecosystem Partners,closed,bilalmotiwala,,,2026-01-15,2026-01-16T19:45:55Z,2026-01-16T19:45:55Z,https://github.com/coinbase/x402/pull/969,,,,,,,,,,,,,False
+964,Move ecosystem files in wrong place,closed,SebastianBitsch,,,2026-01-14,2026-01-15T02:13:07Z,2026-01-15T02:13:07Z,https://github.com/coinbase/x402/pull/964,,,,,,,,,,,,,False
+962,feat(stacks): add Stacks blockchain ecosystem support,open,whoabuddy,,,2026-01-14,,2026-03-26T13:38:57Z,https://github.com/coinbase/x402/pull/962,,,,,,,,,,,,,False
+955,Update Numbers Protocol logo for light theme,closed,bafu,,,2026-01-13,2026-01-13T23:13:44Z,2026-01-14T06:47:43Z,https://github.com/coinbase/x402/pull/955,,,,,,,,,,,,,False
+948,Add Nous API to ecosystem,closed,Aboozle1,,,2026-01-12,,2026-02-23T01:49:29Z,https://github.com/coinbase/x402/pull/948,,,,,,,,,,,,,False
+942,Add OpenFacilitator to ecosystem,closed,rawgroundbeef,,,2026-01-09,2026-01-19T08:13:12Z,2026-01-19T08:13:15Z,https://github.com/coinbase/x402/pull/942,,,,,,,,,,,,,False
+939,Add Synapse x402 Explorer to ecosystem,open,web3luka,,,2026-01-09,,2026-01-20T20:53:22Z,https://github.com/coinbase/x402/pull/939,,,,,,,,,,,,,False
+936,Add BlockRun.AI to x402 ecosystem,closed,1bcMax,,,2026-01-09,2026-01-19T23:45:37Z,2026-01-19T23:45:37Z,https://github.com/coinbase/x402/pull/936,,,,,,,,,,,,,False
+934,Add x402jobs to ecosystem,closed,rawgroundbeef,,,2026-01-08,2026-01-08T23:39:11Z,2026-01-08T23:39:11Z,https://github.com/coinbase/x402/pull/934,,,,,,,,,,,,,False
+932,Update Heurist ecosystem projects,closed,wjw12,,,2026-01-08,2026-01-08T22:07:04Z,2026-01-08T22:07:04Z,https://github.com/coinbase/x402/pull/932,,,,,,,,,,,,,False
+923,Add RelAI to ecosystem,closed,web3luka,,,2026-01-07,2026-01-14T16:48:59Z,2026-01-14T16:49:00Z,https://github.com/coinbase/x402/pull/923,,,,,,,,,,,,,False
+922,New Ecosystem member x402wall,closed,calicwhat,,,2026-01-07,2026-01-08T10:33:05Z,2026-01-08T10:33:05Z,https://github.com/coinbase/x402/pull/922,,,,,,,,,,,,,False
+920,Add NonceArt to Ecosystem,open,0xartist,,,2026-01-07,,2026-01-28T18:29:28Z,https://github.com/coinbase/x402/pull/920,,,,,,,,,,,,,False
+913,Add oops402 to ecosystem,closed,krebit,,,2026-01-06,2026-01-07T21:28:47Z,2026-01-07T21:28:47Z,https://github.com/coinbase/x402/pull/913,,,,,,,,,,,,,False
+910,feat: add Kobaru to x402 Ecosystem Website,closed,fabriciogava,,,2026-01-06,2026-01-12T21:57:19Z,2026-01-23T16:31:10Z,https://github.com/coinbase/x402/pull/910,,,,,,,,,,,,,False
+899,Add 0xmeta.ai to ecosystem partners list,closed,0xmetaHQ,,,2026-01-02,2026-02-01T09:07:18Z,2026-02-01T09:07:18Z,https://github.com/coinbase/x402/pull/899,,,,,,,,,,,,,False
+891,feat(ecosystem): Add QuantumShield API to Services/Endpoints,closed,mbennett-labs,,,2025-12-31,,2026-01-15T23:42:20Z,https://github.com/coinbase/x402/pull/891,,,,,,,,,,,,,False
+889,Add Primer to ecosystem (Facilitator + Client & Server SDK),closed,primersystems-dev,,,2025-12-30,2026-01-29T17:51:59Z,2026-01-29T17:51:59Z,https://github.com/coinbase/x402/pull/889,,,,,,,,,,,,,False
+812,Add Nevermined to x402 ecosystem,closed,r-marques,,,2025-12-17,2026-01-06T16:10:24Z,2026-01-06T16:10:24Z,https://github.com/coinbase/x402/pull/812,,,,,,,,,,,,,False
+744,Add Imference to x402 ecosystem,closed,letroglodyte,,,2025-12-10,2026-01-26T16:46:29Z,2026-01-26T16:46:30Z,https://github.com/coinbase/x402/pull/744,,,,,,,,,,,,,False
+736,Add Crypto Sentiment API to ecosystem,closed,lobsterbar2027-boop,,,2025-12-09,2026-01-28T17:53:32Z,2026-01-28T17:53:32Z,https://github.com/coinbase/x402/pull/736,,,,,,,,,,,,,False
+718,Add Numbers Protocol to Ecosystem: Seamless payment for content licenses and Receipt NFTs,closed,bafu,,,2025-12-04,2026-01-12T21:58:17Z,2026-01-13T09:09:31Z,https://github.com/coinbase/x402/pull/718,,,,,,,,,,,,,False
+674,P-Link x402 MCP,closed,paracetamol951,,,2025-11-24,,2026-01-30T16:55:45Z,https://github.com/coinbase/x402/pull/674,,,,,,,,,,,,,False
+624,chore: Add 1Pay.ing (Client-Side Integrations) to ecosystem,closed,zensh,,,2025-11-10,2026-01-20T20:57:36Z,2026-01-20T20:57:37Z,https://github.com/coinbase/x402/pull/624,,,,,,,,,,,,,False
+618,feat: adding slinkylayer to ecosystem,closed,sudomon,,,2025-11-08,2026-01-23T19:40:34Z,2026-01-23T19:40:35Z,https://github.com/coinbase/x402/pull/618,,,,,,,,,,,,,False
+563,Adding QuickNode Ruby gems to Ecosystem,closed,Sahilsen,,,2025-10-31,2026-01-09T18:02:49Z,2026-01-09T18:02:50Z,https://github.com/coinbase/x402/pull/563,,,,,,,,,,,,,False
+554,Add x402-go to ecosystem partners,closed,ezynda3,,,2025-10-30,2026-02-01T03:01:19Z,2026-02-01T03:01:19Z,https://github.com/coinbase/x402/pull/554,,,,,,,,,,,,,False
