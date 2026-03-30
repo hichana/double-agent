@@ -35,21 +35,22 @@ upload each dataset twice under different filenames with different prices.
 Note: queryable can only be set at upload time; PATCH only supports price_usdc and description.
 Note: Stripe has a $0.50 floor — prices below $0.50 only work via the x402 path.
 
-Target prices:
-  Full Company Index   — query: $0.10, download: $2.00
-  Merged Only (vetted) — query: $0.10, download: $1.00
-  New This Week        — query: $0.05, download: $0.50
-  Raw All Statuses     — download-only: $1.50 (no query SKU; unfiltered, low-signal data)
+Live prices (as of 2026-03-30, patched via PATCH /listing/{id}/data/{file_id}):
+  Full Company Index   — $0.10 (queryable=true)
+  Merged Only (vetted) — $0.10 (queryable=true)
+  New This Week        — $0.05 (queryable=true, x402 path only — below Stripe $0.50 floor)
+  Raw All Statuses     — $1.50 (queryable=false, download-only)
 
-KNOWN SERVER BUG (filed ticket fb36b36b-f166-4bf7-b291-b86ac913cc96, 2026-03-30)
-=================================================================================
-GET /listing/{resource_id}/data returns HTTP 402 with:
-  {"error": "payment_verification_failed", "detail": "1 validation error for
-   DataFileResponse schema_columns Input should be a valid list"}
-The schema_columns column is stored as a JSON string in the DB rather than a list;
-Pydantic validation fails on deserialization. Until resolved.sh fixes this, the
-list-files command will return an error and patch-price cannot discover file UUIDs
-automatically. Workaround: supply file_id directly if known, or wait for bug fix.
+Two-SKU roadmap: on next data refresh, use upload-two-sku to split each dataset
+into *_query.jsonl ($0.05–$0.10, queryable) and *_bulk.jsonl ($0.50–$2.00, download-only).
+This gives true cheap-query / expensive-download separation. For now, single price
+is set at the query rate — full downloads are cheap, but agent adoption is the priority.
+
+File UUIDs (resource e8592c18-9052-47b5-bfa3-bfe699193d0e):
+  x402_ecosystem_full_index.jsonl    531352df-30bb-4838-b879-ead9fbaad7ef
+  x402_ecosystem_merged_only.jsonl   c0455245-46d7-4c98-810d-97772382f1f9
+  x402_ecosystem_new_this_week.jsonl eb7f53f2-b27c-47ad-9f67-b9adfc367607
+  x402_ecosystem_raw_all.jsonl       0bc2776d-209c-4553-a6a1-82c9a311f9cf
 """
 
 import sys
@@ -227,24 +228,11 @@ def _upload_file(resource_id, local_path, remote_filename, price_usdc, queryable
 
 
 def cmd_list_files(resource_id):
-    """
-    List data files for a resource (requires API key auth).
-
-    NOTE: As of 2026-03-30 this endpoint returns HTTP 402 due to a resolved.sh server bug:
-    schema_columns is stored as a JSON string in the DB but Pydantic expects a list.
-    Support ticket filed: fb36b36b-f166-4bf7-b291-b86ac913cc96
-    """
+    """List data files for a resource (requires API key auth)."""
     r = requests.get(
         f"{BASE}/listing/{resource_id}/data",
         headers=headers(),
     )
-    if r.status_code == 402:
-        data = r.json()
-        if "schema_columns" in data.get("detail", ""):
-            print("ERROR: resolved.sh server bug — schema_columns stored as string, not list.")
-            print("Support ticket: fb36b36b-f166-4bf7-b291-b86ac913cc96")
-            print("Cannot retrieve file UUIDs until this is fixed server-side.")
-            sys.exit(1)
     r.raise_for_status()
     files = r.json().get("files", [])
     for f in files:
