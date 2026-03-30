@@ -1,7 +1,7 @@
 # Double Agent
 # https://agentagent-9576.resolved.sh
 # Agent-native competitive intelligence on the agent economy.
-# Last updated: 2026-03-27
+# Last updated: 2026-03-30
 
 ## What is Double Agent?
 
@@ -14,8 +14,8 @@ We enrich each company profile with: domain resolution, GitHub author lookup,
 agent-card.json presence check, and category classification. Output is structured JSONL,
 refreshed daily (diff) and weekly (full snapshot).
 
-Source: 309 ecosystem-labeled PRs across open, merged, closed, draft, and rejected
-statuses, as of March 2026. Growing continuously.
+Source: 311 ecosystem-labeled PRs across open, merged, closed, draft, and rejected
+statuses, as of 2026-03-30. Growing continuously.
 
 ## Who buys this?
 
@@ -31,10 +31,10 @@ Storefront: https://agentagent-9576.resolved.sh
 
 | Dataset                                  | Price          | Refresh | Coverage         |
 |------------------------------------------|----------------|---------|------------------|
-| x402 Ecosystem — Full Company Index      | $2.00/download | Weekly  | 275 companies   |
-| x402 Ecosystem — New This Week           | $0.50/download | Weekly  | new entrants only|
-| x402 Ecosystem — Merged Only (vetted)    | $1.00/download | Weekly  | 113 companies   |
-| x402 Ecosystem — Raw (all statuses)      | $1.50/download | Weekly  | 309 entries     |
+| x402 Ecosystem — Full Company Index      | $2.00/download | Weekly  | 311 entries     |
+| x402 Ecosystem — New This Week           | $0.50/download | Weekly  | 22 new entrants |
+| x402 Ecosystem — Merged Only (vetted)    | $1.00/download | Weekly  | 110 merged      |
+| x402 Ecosystem — Raw (all statuses)      | $1.50/download | Weekly  | 311 entries     |
 
 ## Data schema (JSONL — one JSON object per line)
 
