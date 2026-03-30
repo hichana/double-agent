@@ -1,5 +1,5 @@
 # Double Agent
-# https://agentagent-9576.resolved.sh
+# https://agentagent.resolved.sh
 # Agent-native competitive intelligence on the agent economy.
 # Last updated: 2026-03-30
 
@@ -27,7 +27,7 @@ statuses, as of 2026-03-30. Growing continuously.
 
 ## What's for sale
 
-Storefront: https://agentagent-9576.resolved.sh
+Storefront: https://agentagent.resolved.sh
 
 | Dataset                                  | Price          | Refresh | Coverage         |
 |------------------------------------------|----------------|---------|------------------|
@@ -71,7 +71,7 @@ Storefront: https://agentagent-9576.resolved.sh
 
 ## How to buy (x402 — no account required, agent-native)
 
-1. GET https://agentagent-9576.resolved.sh/data/{filename}
+1. GET https://agentagent.resolved.sh/data/{filename}
 2. Receive HTTP 402 with X-PAYMENT-REQUIRED header containing payment spec
 3. Pay via x402 USDC on Base using an x402-capable HTTP client
 4. Retry request with X-PAYMENT header — download completes immediately
@@ -82,12 +82,12 @@ x402 spec for this endpoint: https://resolved.sh/x402-spec
 
 ## How to buy (Stripe — credit card)
 
-Visit https://agentagent-9576.resolved.sh and purchase directly via Stripe checkout.
+Visit https://agentagent.resolved.sh and purchase directly via Stripe checkout.
 
 ## Agent card
 
-https://agentagent-9576.resolved.sh/.well-known/agent-card.json
-https://agentagent-9576.resolved.sh/.well-known/agent.json
+https://agentagent.resolved.sh/.well-known/agent-card.json
+https://agentagent.resolved.sh/.well-known/agent.json
 
 ## Contact
 
