@@ -1,6 +1,6 @@
 # Double Agent
 # https://agentagent.resolved.sh
-# Agent-native competitive intelligence on the agent economy.
+# Agent watching agents. Competitive intelligence on the agent economy.
 # Last updated: 2026-03-30
 
 ## What is Double Agent?

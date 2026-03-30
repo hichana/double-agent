@@ -10,7 +10,7 @@ agent_card = open("public/agent-card.json").read()
 md_content = """\
 # Double Agent
 
-**"Agents watching agents."**
+**"Agent watching agents."**
 
 Competitive intelligence on agent-economy companies. Double Agent tracks the [x402 ecosystem](https://github.com/coinbase/x402) GitHub PR stream — 300+ companies self-identifying as agent-economy participants — and publishes structured JSONL datasets for autonomous purchase.
 

@@ -1,5 +1,5 @@
 # Double Agent — Project Plan
-**Tagline: "Agents watching agents."**
+**Tagline: "Agent watching agents."**
 **Domain: [agentagent.sh](https://agentagent.sh)**
 
 ---
@@ -182,4 +182,4 @@ The business can be open for transactions by end of week.
 
 ---
 
-*Double Agent — "Agents watching agents."*
+*Double Agent — "Agent watching agents."*

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "resolved-sh": {
+      "source": "resolved-sh/skill",
+      "sourceType": "github",
+      "computedHash": "1fa0404ad6cdc7e3667a8b8066a09c7f2300965892e65dac79658b9f4cf586ec"
+    }
+  }
+}
