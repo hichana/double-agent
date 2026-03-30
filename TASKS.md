@@ -64,3 +64,4 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 | B01 | New entrant webhook/feed product | agent | `[ ]` | Phase 2.3 — after pipeline is running |
 | B02 | Sector intelligence packs (infra / data / security) | agent | `[ ]` | Phase 3.2 |
 | B03 | Expand data sources beyond x402 (resolved.sh feed, agent-card crawl, A2A) | agent | `[ ]` | Phase 3.3 |
+| B04 | Publish x402 ecosystem dataset to HuggingFace | Matt | `[ ]` | Create dataset at huggingface.co/new-dataset, suggested name `hichana/x402-ecosystem`; upload `distribution/huggingface/README.md` as dataset card; optionally add HF_TOKEN to ~/.config/double-agent/.env for future automation |
