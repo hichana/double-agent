@@ -11,6 +11,7 @@ Usage:
     python scripts/resolved_sh.py upload <resource_id> <file> <price>               Upload a dataset file
     python scripts/resolved_sh.py list-files <resource_id>                          List data files (with UUIDs)
     python scripts/resolved_sh.py patch-price <resource_id> <file_id>               Update file pricing
+    python scripts/resolved_sh.py publish-post <resource_id> <slug> <title> <md_file> [--price 0] [--published-at ISO]  Publish a post
     python scripts/resolved_sh.py payout <0x_address>                               Set EVM payout wallet
     python scripts/resolved_sh.py spec                                              Print the resolved.sh llms.txt spec
 
@@ -30,7 +31,7 @@ Live prices (resource e8592c18-9052-47b5-bfa3-bfe699193d0e / agentagent.resolved
 
   File                               query_price  download_price  queryable
   x402_ecosystem_full_index.jsonl    $0.10        $2.00           true
-  x402_ecosystem_merged_only.jsonl   $0.10        $1.00           true
+  x402_ecosystem_merged_only.jsonl   $0.05        $1.00           true
   x402_ecosystem_new_this_week.jsonl $0.05        $0.50           true
   x402_ecosystem_raw_all.jsonl       —            $1.50           false
 
@@ -54,7 +55,7 @@ BASE = "https://resolved.sh"
 # download — per full file download
 PRICING = {
     "x402_ecosystem_full_index.jsonl":    {"query": "0.10", "download": "2.00"},
-    "x402_ecosystem_merged_only.jsonl":   {"query": "0.10", "download": "1.00"},
+    "x402_ecosystem_merged_only.jsonl":   {"query": "0.05", "download": "1.00"},
     "x402_ecosystem_new_this_week.jsonl": {"query": "0.05", "download": "0.50"},
     "x402_ecosystem_raw_all.jsonl":       {"query": None,   "download": "1.50"},
 }
@@ -225,6 +226,23 @@ def _print_pricing(result):
         print(f"  download=${dp}  (not queryable)")
 
 
+def cmd_publish_post(resource_id, slug, title, md_content, price_usdc=0, published_at=None):
+    """
+    Publish or update a post on the listing.
+    PUT /listing/{id}/posts/{slug}
+    """
+    body = {"title": title, "md_content": md_content, "price_usdc": price_usdc}
+    if published_at:
+        body["published_at"] = published_at
+    r = requests.put(
+        f"{BASE}/listing/{resource_id}/posts/{slug}",
+        headers=headers(),
+        json=body,
+    )
+    r.raise_for_status()
+    print(json.dumps(r.json(), indent=2))
+
+
 def cmd_payout(wallet_address):
     body = {"payout_address": wallet_address}
     r = requests.post(f"{BASE}/account/payout-address", headers=headers(), json=body)
@@ -281,6 +299,20 @@ def main():
             print("Usage: resolved_sh.py list-files <resource_id>")
             sys.exit(1)
         cmd_list_files(sys.argv[2])
+
+    elif cmd == "publish-post":
+        parser = argparse.ArgumentParser()
+        parser.add_argument("resource_id")
+        parser.add_argument("slug")
+        parser.add_argument("title")
+        parser.add_argument("md_file")
+        parser.add_argument("--price", default=0, type=float)
+        parser.add_argument("--published-at", default=None, dest="published_at")
+        args = parser.parse_args(sys.argv[2:])
+        with open(args.md_file) as f:
+            md_content = f.read()
+        cmd_publish_post(args.resource_id, args.slug, args.title, md_content,
+                         price_usdc=args.price, published_at=args.published_at)
 
     elif cmd == "patch-price":
         parser = argparse.ArgumentParser()
