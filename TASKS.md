@@ -63,14 +63,15 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 |----|------|-------|--------|-------|
 | B10 | Publish launch post (free) — "The x402 Ecosystem: 311 Companies, 3 Signals, 1 Dataset" | agent | `[x]` | Done 2026-04-01; live at https://agentagent.resolved.sh/posts/x402-ecosystem-launch |
 | B11 | Set up `double-agent-weekly-blog` scheduled task (Mon 10am JST) | agent | `[x]` | Done 2026-04-01; publishes free weekly digest of top 3-5 new x402 entries |
-| B12 | First paid post ($1.50) — "Top AI Agent Infrastructure Companies" | agent | `[ ]` | Monthly deep analysis; draw from queryable dataset |
-| B13 | Second paid post ($1.50) — "x402 Adoption Trends" | agent | `[ ]` | Monthly; include merged vs open rate, signal density over time |
-| B14 | Third paid post ($2.00) — "Which Companies Have Full Agent Signals?" | agent | `[ ]` | Monthly; spotlight all-3-signal companies with full profiles |
+| B12 | ~~First paid post ($1.50) — "Top AI Agent Infrastructure Companies"~~ | agent | `[-]` | **Superseded** by weekly deep-research format (see B15) |
+| B13 | ~~Second paid post ($1.50) — "x402 Adoption Trends"~~ | agent | `[-]` | **Superseded** by weekly deep-research format (see B15) |
+| B14 | ~~Third paid post ($2.00) — "Which Companies Have Full Agent Signals?"~~ | agent | `[-]` | **Superseded** by weekly deep-research format (see B15) |
+| B15 | Weekly paid deep-research post ($1.50) — rotating angles (signals, stacks, velocity, contributors, backlog) | agent | `[x]` | Done 2026-04-01; first post "x402-agent-signals-april-2026" live; scheduled task `weekly-deep-research-post` runs Mon 9am JST |
 
 **Blog tiers:**
-1. **Free** — Weekly "New This Week" digest (top 3-5 new entries, 300-500 words). Drives traffic.
-2. **Free** — Monthly "State of x402 Ecosystem" launch/flagship posts. Brand building.
-3. **Paid ($1.00–$2.00)** — Monthly deep analysis (infrastructure rankings, adoption trends, signal-rich spotlights).
+1. **Free** — Weekly "New This Week" digest (top 3-5 new entries, 300-500 words). Mon 10am JST. Drives traffic.
+2. **Free** — Launch/flagship posts. Brand building.
+3. **Paid ($1.50)** — Weekly deep-research analysis (rotating angles: agent signals, tech stack, category velocity, contributor power law, backlog health). Mon 9am JST.
 
 ---
 
@@ -89,6 +90,7 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 
 - [x] Write launch post (posts/2026-03-30-launch.md)
 - [ ] Publish launch post to resolved.sh (POST /resources/{id}/posts, price_usdc: 0)
-- [ ] Publish first monthly analysis post — "x402 Infrastructure Leaders: Who Has Full Agent Signals?" ($1.50)
+- [x] Publish first weekly deep-research post ($1.50) — "Agent Signals: What the x402 Backlog Tells Us" — live at slug `x402-agent-signals-april-2026`
+- [x] Set up weekly deep-research scheduled task (`weekly-deep-research-post`, runs Mon 9am JST, rotates angle each week)
 - [x] Set up weekly digest scheduled task (double-agent-weekly-blog, runs Mondays 10am)
 - [ ] Set up HuggingFace dataset (see distribution/huggingface/README.md)
