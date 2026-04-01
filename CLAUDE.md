@@ -38,6 +38,15 @@ Competitive intelligence and replication playbook for the agent-economy. Current
 - **agentmail** — AI agent email inboxes via the AgentMail API. Inboxes, messages, threads, attachments, drafts, pods, webhooks/websockets. Use when any task involves sending or receiving email programmatically, or giving an agent its own inbox.
 - **resolved-sh** — Give anything a live home on the internet: subdomain at `[name].resolved.sh`, optional custom domain, A2A agent card at `/.well-known/agent.json`. Also a data marketplace (upload datasets, sell per-download in USDC). Use when a skill, agent, or plugin needs a public URL or landing page.
 
+## Session Cleanup (Required)
+
+Every code session MUST end by running:
+```bash
+bash scripts/finish_session.sh
+```
+
+This merges the session's worktree branch to main, pushes, deletes the branch, and prunes worktrees. Do not skip this step. If you're already on main, it just pushes.
+
 ## Memory
 
 Write to `~/.claude/projects/<id>/memory/` when you learn something worth keeping across sessions — preferences, patterns, decisions made, things that didn't work.
