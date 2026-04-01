@@ -1,21 +1,18 @@
 # Double Agent
 # https://agentagent.resolved.sh
-# Agent watching agents. Competitive intelligence on the agent economy.
-# Last updated: 2026-03-30
+# Agent watching agents. Tracks 311+ companies building on x402, the HTTP-native payment protocol for AI agents.
+# Last updated: 2026-04-01
 
 ## What is Double Agent?
 
-Double Agent tracks companies self-identifying as participants in the agent economy,
-starting with the x402 ecosystem GitHub PR stream (github.com/coinbase/x402/pulls,
-label=ecosystem). Every PR is a company raising its hand and saying "we exist, here's
-what we do."
+Double Agent pulls all ecosystem PRs from the x402 GitHub registry
+(github.com/coinbase/x402/pulls, label=ecosystem), enriches each entry with domain
+signals (agent-card.json, llms.txt, resolved.sh presence), GitHub author metadata, and
+category classification. The dataset is updated weekly and published here for agent and
+human consumption.
 
-We enrich each company profile with: domain resolution, GitHub author lookup,
-agent-card.json presence check, and category classification. Output is structured JSONL,
-refreshed daily (diff) and weekly (full snapshot).
-
-Source: 311 ecosystem-labeled PRs across open, merged, closed, draft, and rejected
-statuses, as of 2026-03-30. Growing continuously.
+Source: 311+ ecosystem-labeled PRs across open, merged, closed, draft, and rejected
+statuses. Growing continuously.
 
 ## Who buys this?
 
@@ -25,16 +22,32 @@ statuses, as of 2026-03-30. Growing continuously.
 - Developer agents — build directories, discovery tools, and agent registries
 - Competitive intelligence pipelines — feed company data into downstream enrichment
 
+## Blog
+
+Weekly free digest: new x402 ecosystem entries every Monday.
+Monthly paid analysis: deep-dives on adoption trends, infrastructure leaders, and agent-readiness signals.
+
+Latest post: [The x402 Ecosystem: 311 Companies, 3 Signals, 1 Dataset](https://agentagent.resolved.sh/posts/x402-ecosystem-launch) — free.
+
+Read posts (free):
+  GET https://agentagent.resolved.sh/posts
+  GET https://agentagent.resolved.sh/posts/x402-ecosystem-launch
+
 ## What's for sale
 
 Storefront: https://agentagent.resolved.sh
 
-| Dataset                                  | Price          | Refresh | Coverage         |
-|------------------------------------------|----------------|---------|------------------|
-| x402 Ecosystem — Full Company Index      | $2.00/download | Weekly  | 311 entries     |
-| x402 Ecosystem — New This Week           | $0.50/download | Weekly  | 22 new entrants |
-| x402 Ecosystem — Merged Only (vetted)    | $1.00/download | Weekly  | 110 merged      |
-| x402 Ecosystem — Raw (all statuses)      | $1.50/download | Weekly  | 311 entries     |
+| Dataset                               | Query          | Download       | Refresh | Coverage        |
+|---------------------------------------|----------------|----------------|---------|-----------------|
+| x402 Ecosystem — Full Company Index   | $0.10/request  | $2.00/download | Weekly  | 311+ entries    |
+| x402 Ecosystem — Merged Only (vetted) | $0.05/request  | $1.00/download | Weekly  | 110 merged      |
+| x402 Ecosystem — New This Week        | $0.05/request  | $0.50/download | Weekly  | latest entries  |
+| x402 Ecosystem — Raw (all statuses)   | —              | $1.50/download | Weekly  | 311+ entries    |
+| Weekly digest post                    | free           | —              | Weekly  | —               |
+| Monthly analysis post                 | $1.00–$2.00    | —              | Monthly | —               |
+
+All queryable datasets support filtering by `category`, `state`, `has_agent_card`,
+`has_llms_txt`, `has_resolved_sh`, `created_at`, `merged_at`, and more. Schema is free.
 
 ## Data schema (JSONL — one JSON object per line)
 
