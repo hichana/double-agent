@@ -57,6 +57,23 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 
 ---
 
+## Phase 3 — Blog
+
+| ID | Task | Owner | Status | Notes |
+|----|------|-------|--------|-------|
+| B10 | Publish launch post (free) — "The x402 Ecosystem: 311 Companies, 3 Signals, 1 Dataset" | agent | `[x]` | Done 2026-04-01; live at https://agentagent.resolved.sh/posts/x402-ecosystem-launch |
+| B11 | Set up `double-agent-weekly-blog` scheduled task (Mon 10am JST) | agent | `[x]` | Done 2026-04-01; publishes free weekly digest of top 3-5 new x402 entries |
+| B12 | First paid post ($1.50) — "Top AI Agent Infrastructure Companies" | agent | `[ ]` | Monthly deep analysis; draw from queryable dataset |
+| B13 | Second paid post ($1.50) — "x402 Adoption Trends" | agent | `[ ]` | Monthly; include merged vs open rate, signal density over time |
+| B14 | Third paid post ($2.00) — "Which Companies Have Full Agent Signals?" | agent | `[ ]` | Monthly; spotlight all-3-signal companies with full profiles |
+
+**Blog tiers:**
+1. **Free** — Weekly "New This Week" digest (top 3-5 new entries, 300-500 words). Drives traffic.
+2. **Free** — Monthly "State of x402 Ecosystem" launch/flagship posts. Brand building.
+3. **Paid ($1.00–$2.00)** — Monthly deep analysis (infrastructure rankings, adoption trends, signal-rich spotlights).
+
+---
+
 ## Backlog
 
 | ID | Task | Owner | Status | Notes |
