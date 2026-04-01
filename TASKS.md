@@ -65,3 +65,13 @@ Entity-based task tracking. Each item is a discrete unit of work with an owner (
 | B02 | Sector intelligence packs (infra / data / security) | agent | `[ ]` | Phase 3.2 |
 | B03 | Expand data sources beyond x402 (resolved.sh feed, agent-card crawl, A2A) | agent | `[ ]` | Phase 3.3 |
 | B04 | Publish x402 ecosystem dataset to HuggingFace | Matt | `[ ]` | Create dataset at huggingface.co/new-dataset, suggested name `hichana/x402-ecosystem`; upload `distribution/huggingface/README.md` as dataset card; optionally add HF_TOKEN to ~/.config/double-agent/.env for future automation |
+
+---
+
+## Blog
+
+- [x] Write launch post (posts/2026-03-30-launch.md)
+- [ ] Publish launch post to resolved.sh (POST /resources/{id}/posts, price_usdc: 0)
+- [ ] Publish first monthly analysis post — "x402 Infrastructure Leaders: Who Has Full Agent Signals?" ($1.50)
+- [x] Set up weekly digest scheduled task (double-agent-weekly-blog, runs Mondays 10am)
+- [ ] Set up HuggingFace dataset (see distribution/huggingface/README.md)
