@@ -15,8 +15,8 @@ _Initialized during onboarding — 2026-03-25_
 - Confirm only before irreversible actions; everything else: proceed and report
 
 ## Credentials
-- Keys live in `~/.config/double-agent/.env` (machine-local, not in repo)
-- Load with: `source ~/.config/double-agent/.env` or `export $(cat ~/.config/double-agent/.env | xargs)`
+- Keys live in `~/Documents/double-agent/.env` (repo root, gitignored)
+- Load with: `source ~/Documents/double-agent/.env` or `export $(cat ~/Documents/double-agent/.env | xargs)`
 - AGENTMAIL_API_KEY: cycled 2026-03-27 (new key from Downloads/Untitled.rtf)
 - RESOLVED_SH_API_KEY: cycled 2026-03-27 via magic link to repulsivemeaning51@agentmail.to (label: double-agent-key)
 
