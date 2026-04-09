@@ -36,10 +36,10 @@ Live prices (resource e8592c18-9052-47b5-bfa3-bfe699193d0e / agentagent.resolved
   x402_ecosystem_raw_all.jsonl       —            $1.50           false
 
 File UUIDs:
-  x402_ecosystem_full_index.jsonl    531352df-30bb-4838-b879-ead9fbaad7ef
-  x402_ecosystem_merged_only.jsonl   c0455245-46d7-4c98-810d-97772382f1f9
-  x402_ecosystem_new_this_week.jsonl eb7f53f2-b27c-47ad-9f67-b9adfc367607
-  x402_ecosystem_raw_all.jsonl       0bc2776d-209c-4553-a6a1-82c9a311f9cf
+  x402_ecosystem_full_index.jsonl    b2b44492-5e6a-4aff-910f-f714b0cec595
+  x402_ecosystem_merged_only.jsonl   232cc77c-3b95-4b26-9f08-7f053a554b42
+  x402_ecosystem_new_this_week.jsonl 59ddecd5-38f1-4740-88d3-e6ef3f0f7e27
+  x402_ecosystem_raw_all.jsonl       2168cb16-4948-422b-a804-ce723f80e943
 """
 
 import sys
