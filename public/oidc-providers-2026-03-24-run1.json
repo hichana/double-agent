@@ -1,0 +1,3946 @@
+[
+  {
+    "domain": "discord.com",
+    "rank": 158,
+    "crawled_at": "2026-03-24T03:57:23.266210+00:00",
+    "issuer": "https://discord.com",
+    "authorization_endpoint": "https://discord.com/api/oauth2/authorize",
+    "token_endpoint": "https://discord.com/api/oauth2/token",
+    "jwks_uri": "https://discord.com/api/oauth2/keys",
+    "userinfo_endpoint": "https://discord.com/api/oauth2/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token"
+    ]
+  },
+  {
+    "domain": "slack.com",
+    "rank": 315,
+    "crawled_at": "2026-03-24T03:59:08.982624+00:00",
+    "issuer": "https://slack.com",
+    "authorization_endpoint": "https://slack.com/openid/connect/authorize",
+    "token_endpoint": "https://slack.com/api/openid.connect.token",
+    "jwks_uri": "https://slack.com/openid/connect/keys",
+    "userinfo_endpoint": "https://slack.com/api/openid.connect.userInfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "calendly.com",
+    "rank": 421,
+    "crawled_at": "2026-03-24T04:00:17.033815+00:00",
+    "issuer": "https://calendly.com",
+    "authorization_endpoint": "https://calendly.com/oauth/authorize",
+    "token_endpoint": "https://calendly.com/oauth/token",
+    "jwks_uri": null,
+    "userinfo_endpoint": null,
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "gitlab.com",
+    "rank": 434,
+    "crawled_at": "2026-03-24T04:00:25.991267+00:00",
+    "issuer": "https://gitlab.com",
+    "authorization_endpoint": "https://gitlab.com/oauth/authorize",
+    "token_endpoint": "https://gitlab.com/oauth/token",
+    "jwks_uri": "https://gitlab.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://gitlab.com/oauth/userinfo",
+    "scopes_supported": [
+      "api",
+      "read_api",
+      "read_user",
+      "create_runner",
+      "manage_runner",
+      "k8s_proxy",
+      "self_rotate",
+      "mcp",
+      "mcp_orbit",
+      "read_repository",
+      "write_repository",
+      "read_registry",
+      "write_registry",
+      "read_virtual_registry",
+      "write_virtual_registry",
+      "read_observability",
+      "write_observability",
+      "ai_features",
+      "sudo",
+      "admin_mode",
+      "read_service_ping",
+      "openid",
+      "profile",
+      "email",
+      "ai_workflows",
+      "user:*"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "password",
+      "client_credentials",
+      "device_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "stackoverflow.com",
+    "rank": 500,
+    "crawled_at": "2026-03-24T04:01:11.800357+00:00",
+    "issuer": "https://stackoverflow.com",
+    "authorization_endpoint": "https://stackoverflow.com/oauth/authorize",
+    "token_endpoint": "https://stackoverflow.com/oauth/access_token",
+    "jwks_uri": "https://stackoverflow.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "discordapp.com",
+    "rank": 773,
+    "crawled_at": "2026-03-24T04:04:12.028507+00:00",
+    "issuer": "https://discord.com",
+    "authorization_endpoint": "https://discord.com/api/oauth2/authorize",
+    "token_endpoint": "https://discord.com/api/oauth2/token",
+    "jwks_uri": "https://discord.com/api/oauth2/keys",
+    "userinfo_endpoint": "https://discord.com/api/oauth2/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token"
+    ]
+  },
+  {
+    "domain": "clever.com",
+    "rank": 950,
+    "crawled_at": "2026-03-24T04:06:27.112762+00:00",
+    "issuer": "https://clever.com",
+    "authorization_endpoint": "https://clever.com/oauth/authorize",
+    "token_endpoint": "https://clever.com/oauth/tokens",
+    "jwks_uri": "https://clever.com/oauth/certs",
+    "userinfo_endpoint": "https://api.clever.com/userinfo",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile"
+    ],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "salesforceliveagent.com",
+    "rank": 988,
+    "crawled_at": "2026-03-24T04:06:56.433016+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "note.com",
+    "rank": 992,
+    "crawled_at": "2026-03-24T04:06:59.182108+00:00",
+    "issuer": "https://note.com",
+    "authorization_endpoint": "https://note.com/oauth/authorize",
+    "token_endpoint": "https://note.com/oauth/token",
+    "jwks_uri": "https://note.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://note.com/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "letterboxd.com",
+    "rank": 1058,
+    "crawled_at": "2026-03-24T04:07:38.202123+00:00",
+    "issuer": "https://letterboxd.com",
+    "authorization_endpoint": "https://letterboxd.com/api/v0/auth/authorize",
+    "token_endpoint": "https://api.letterboxd.com/api/v0/auth/token",
+    "jwks_uri": "https://letterboxd.com/.well-known/jwks.json",
+    "userinfo_endpoint": "https://api.letterboxd.com/api/v0/userinfo",
+    "scopes_supported": [
+      "profile:private:view",
+      "profile:modify",
+      "security:modify",
+      "content:modify",
+      "oauth:refresh",
+      "openid",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "password",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "pandora.com",
+    "rank": 1117,
+    "crawled_at": "2026-03-24T04:08:26.019724+00:00",
+    "issuer": "https://www.pandora.com",
+    "authorization_endpoint": "https://www.pandora.com/oauth/v1/authorize",
+    "token_endpoint": "https://www.pandora.com/oauth/v1/token",
+    "jwks_uri": "https://www.pandora.com/oauth/v1/jwks",
+    "userinfo_endpoint": "https://www.pandora.com/oauth/v1/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "password",
+      "urn:ietf:params:oauth:grant-type:device_code",
+      "client_credentials"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "game8.jp",
+    "rank": 1413,
+    "crawled_at": "2026-03-24T04:12:43.614981+00:00",
+    "issuer": "https://game8.jp",
+    "authorization_endpoint": "https://game8.jp/oauth/authorize",
+    "token_endpoint": "https://game8.jp/oauth/token",
+    "jwks_uri": "https://game8.jp/oauth/discovery/keys",
+    "userinfo_endpoint": "https://game8.jp/oauth/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "site.com",
+    "rank": 1487,
+    "crawled_at": "2026-03-24T04:14:01.877853+00:00",
+    "issuer": "https://site.com",
+    "authorization_endpoint": "https://site.com/services/oauth2/authorize",
+    "token_endpoint": "https://site.com/services/oauth2/token",
+    "jwks_uri": "https://site.com/id/keys",
+    "userinfo_endpoint": "https://site.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "ico.org.uk",
+    "rank": 1939,
+    "crawled_at": "2026-03-24T04:21:07.740786+00:00",
+    "issuer": "https://ico.org.uk/",
+    "authorization_endpoint": "https://ico.org.uk/umbraco/delivery/api/v1/security/member/authorize",
+    "token_endpoint": "https://ico.org.uk/umbraco/delivery/api/v1/security/member/token",
+    "jwks_uri": "https://ico.org.uk/.well-known/jwks",
+    "userinfo_endpoint": "https://ico.org.uk/umbraco/delivery/api/v1/security/member/userinfo",
+    "scopes_supported": [
+      "openid",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "huggingface.co",
+    "rank": 2037,
+    "crawled_at": "2026-03-24T04:22:24.264904+00:00",
+    "issuer": "https://huggingface.co",
+    "authorization_endpoint": "https://huggingface.co/oauth/authorize",
+    "token_endpoint": "https://huggingface.co/oauth/token",
+    "jwks_uri": "https://huggingface.co/oauth/jwks",
+    "userinfo_endpoint": "https://huggingface.co/oauth/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [
+      "urn:ietf:params:oauth:grant-type:token-exchange",
+      "urn:ietf:params:oauth:grant-type:device_code",
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "orcid.org",
+    "rank": 2120,
+    "crawled_at": "2026-03-24T04:23:30.043371+00:00",
+    "issuer": "https://orcid.org",
+    "authorization_endpoint": "https://orcid.org/oauth/authorize",
+    "token_endpoint": "https://orcid.org/oauth/token",
+    "jwks_uri": "https://orcid.org/oauth/jwks",
+    "userinfo_endpoint": "https://orcid.org/oauth/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "salesforce-scrt.com",
+    "rank": 2670,
+    "crawled_at": "2026-03-24T04:31:00.711441+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "vercel.com",
+    "rank": 2784,
+    "crawled_at": "2026-03-24T04:32:26.512648+00:00",
+    "issuer": "https://vercel.com",
+    "authorization_endpoint": "https://vercel.com/oauth/authorize",
+    "token_endpoint": "https://api.vercel.com/login/oauth/token",
+    "jwks_uri": "https://vercel.com/.well-known/jwks",
+    "userinfo_endpoint": "https://api.vercel.com/login/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token",
+      "urn:ietf:params:oauth:grant-type:device_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "gaijin.net",
+    "rank": 3327,
+    "crawled_at": "2026-03-24T04:39:48.181799+00:00",
+    "issuer": "https://gaijin.net",
+    "authorization_endpoint": "https://gaijin.net/proxy/oauth/authorize",
+    "token_endpoint": "https://gaijin.net/proxy/oauth/token",
+    "jwks_uri": "https://gaijin.net/proxy/oauth/keys",
+    "userinfo_endpoint": "https://gaijin.net/proxy/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile"
+    ],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "thestar.com",
+    "rank": 3519,
+    "crawled_at": "2026-03-24T04:42:08.360471+00:00",
+    "issuer": "https://www.thestar.com/",
+    "authorization_endpoint": "https://www.thestar.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.thestar.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.thestar.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "siteforce.com",
+    "rank": 3596,
+    "crawled_at": "2026-03-24T04:42:59.289712+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "wargaming.net",
+    "rank": 3712,
+    "crawled_at": "2026-03-24T04:44:17.738307+00:00",
+    "issuer": "https://wargaming.net",
+    "authorization_endpoint": "https://wargaming.net/id/api/v3/account/credentials/create/oauth/authorize/",
+    "token_endpoint": "https://wargaming.net/id/api/v3/account/credentials/create/oauth/token/",
+    "jwks_uri": "https://wargaming.net/id/api/v3/jwks/",
+    "userinfo_endpoint": "https://wargaming.net/id/api/v3/account/info/",
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token"
+    ]
+  },
+  {
+    "domain": "nanit.com",
+    "rank": 4290,
+    "crawled_at": "2026-03-24T04:52:17.983156+00:00",
+    "issuer": "https://shopify.com/authentication/13547173",
+    "authorization_endpoint": "https://shopify.com/authentication/13547173/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/13547173/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/13547173/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "todoist.com",
+    "rank": 4384,
+    "crawled_at": "2026-03-24T04:53:24.994358+00:00",
+    "issuer": "https://todoist.com",
+    "authorization_endpoint": "https://todoist.com/oauth/authorize",
+    "token_endpoint": "https://todoist.com/oauth/access_token",
+    "jwks_uri": null,
+    "userinfo_endpoint": "https://todoist.com/api/v1/user",
+    "scopes_supported": [
+      "task:add",
+      "data:read",
+      "data:read_write",
+      "data:delete",
+      "project:delete",
+      "dev:app_console",
+      "backups:read"
+    ],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "wyze.com",
+    "rank": 5286,
+    "crawled_at": "2026-03-24T05:04:44.127803+00:00",
+    "issuer": "https://shopify.com/authentication/58004504738",
+    "authorization_endpoint": "https://account.wyze.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.wyze.com/authentication/oauth/token",
+    "jwks_uri": "https://account.wyze.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "gitea.com",
+    "rank": 5356,
+    "crawled_at": "2026-03-24T05:05:50.554884+00:00",
+    "issuer": "https://gitea.com",
+    "authorization_endpoint": "https://gitea.com/login/oauth/authorize",
+    "token_endpoint": "https://gitea.com/login/oauth/access_token",
+    "jwks_uri": "https://gitea.com/login/oauth/keys",
+    "userinfo_endpoint": "https://gitea.com/login/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email",
+      "groups"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token"
+    ]
+  },
+  {
+    "domain": "codeberg.org",
+    "rank": 5485,
+    "crawled_at": "2026-03-24T05:07:44.869711+00:00",
+    "issuer": "https://codeberg.org",
+    "authorization_endpoint": "https://codeberg.org/login/oauth/authorize",
+    "token_endpoint": "https://codeberg.org/login/oauth/access_token",
+    "jwks_uri": "https://codeberg.org/login/oauth/keys",
+    "userinfo_endpoint": "https://codeberg.org/login/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email",
+      "groups"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token"
+    ]
+  },
+  {
+    "domain": "codeforces.com",
+    "rank": 6637,
+    "crawled_at": "2026-03-24T05:24:05.585132+00:00",
+    "issuer": "https://codeforces.com",
+    "authorization_endpoint": "https://codeforces.com/oauth/authorize",
+    "token_endpoint": "https://codeforces.com/oauth/token",
+    "jwks_uri": null,
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "credly.com",
+    "rank": 6666,
+    "crawled_at": "2026-03-24T05:24:33.413495+00:00",
+    "issuer": "https://www.credly.com",
+    "authorization_endpoint": "https://credly.com/oauth/authorize",
+    "token_endpoint": "https://credly.com/oauth/token",
+    "jwks_uri": "https://credly.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://credly.com/oauth/userinfo",
+    "scopes_supported": [
+      "autoaccepts",
+      "badges",
+      "profile",
+      "affiliations",
+      "age",
+      "analytics",
+      "authorization_tokens",
+      "badge_templates",
+      "badges_privileged",
+      "events",
+      "hris_mappings",
+      "invitations",
+      "issued_badges",
+      "location",
+      "memberships",
+      "oauth_applications",
+      "openid",
+      "pathways",
+      "profile_privileged",
+      "recommendations",
+      "workforce"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit",
+      "password",
+      "client_credentials",
+      "implicit_oidc",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "superuser.com",
+    "rank": 7142,
+    "crawled_at": "2026-03-24T05:31:15.382125+00:00",
+    "issuer": "https://superuser.com",
+    "authorization_endpoint": "https://superuser.com/oauth/authorize",
+    "token_endpoint": "https://superuser.com/oauth/access_token",
+    "jwks_uri": "https://superuser.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "eiga.com",
+    "rank": 7164,
+    "crawled_at": "2026-03-24T05:31:42.676458+00:00",
+    "issuer": "https://id.eiga.com",
+    "authorization_endpoint": "https://id.eiga.com/authorize/",
+    "token_endpoint": "https://id.eiga.com/token/",
+    "jwks_uri": "https://www.googleapis.com/oauth2/v3/certs",
+    "userinfo_endpoint": "https://id.eiga.com/userinfo/",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "phone",
+      "profile"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "code token",
+      "code id_token",
+      "token id_token",
+      "code token id_token",
+      "none"
+    ]
+  },
+  {
+    "domain": "salesforce-sites.com",
+    "rank": 7338,
+    "crawled_at": "2026-03-24T05:34:17.319820+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "askubuntu.com",
+    "rank": 8215,
+    "crawled_at": "2026-03-24T05:47:01.982698+00:00",
+    "issuer": "https://askubuntu.com",
+    "authorization_endpoint": "https://askubuntu.com/oauth/authorize",
+    "token_endpoint": "https://askubuntu.com/oauth/access_token",
+    "jwks_uri": "https://askubuntu.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "turkiyeburslari.gov.tr",
+    "rank": 8720,
+    "crawled_at": "2026-03-24T05:54:22.572390+00:00",
+    "issuer": "https://turkiyeburslari.gov.tr",
+    "authorization_endpoint": "https://turkiyeburslari.gov.tr/connect/authorize",
+    "token_endpoint": "https://turkiyeburslari.gov.tr/connect/token",
+    "jwks_uri": "https://turkiyeburslari.gov.tr/.well-known/openid-configuration/jwks",
+    "userinfo_endpoint": "https://turkiyeburslari.gov.tr/connect/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email",
+      "phone",
+      "default-api",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token",
+      "implicit",
+      "password",
+      "urn:ietf:params:oauth:grant-type:device_code"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token",
+      "code id_token",
+      "code token",
+      "code id_token token"
+    ]
+  },
+  {
+    "domain": "boat-lifestyle.com",
+    "rank": 9166,
+    "crawled_at": "2026-03-24T06:01:51.482382+00:00",
+    "issuer": "https://shopify.com/authentication/5789384802",
+    "authorization_endpoint": "https://shopify.com/authentication/5789384802/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/5789384802/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/5789384802/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "zuora.com",
+    "rank": 9207,
+    "crawled_at": "2026-03-24T06:02:29.204173+00:00",
+    "issuer": "https://one.zuora.com",
+    "authorization_endpoint": "https://one.zuora.com/oauth2/authorize",
+    "token_endpoint": "https://one.zuora.com/oauth2/token",
+    "jwks_uri": "https://one.zuora.com/oauth2/jwks",
+    "userinfo_endpoint": "https://one.zuora.com/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "daisonet.com",
+    "rank": 9282,
+    "crawled_at": "2026-03-24T06:03:36.942972+00:00",
+    "issuer": "https://shopify.com/authentication/71046889790",
+    "authorization_endpoint": "https://shopify.com/authentication/71046889790/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/71046889790/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/71046889790/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "zellbury.com",
+    "rank": 9449,
+    "crawled_at": "2026-03-24T06:06:09.207124+00:00",
+    "issuer": "https://shopify.com/authentication/59532607535",
+    "authorization_endpoint": "https://track.zellbury.com/authentication/oauth/authorize",
+    "token_endpoint": "https://track.zellbury.com/authentication/oauth/token",
+    "jwks_uri": "https://track.zellbury.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "saya.pk",
+    "rank": 9891,
+    "crawled_at": "2026-03-24T06:13:36.289194+00:00",
+    "issuer": "https://shopify.com/authentication/18450743360",
+    "authorization_endpoint": "https://shopify.com/authentication/18450743360/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/18450743360/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/18450743360/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "jbhifi.com.au",
+    "rank": 10687,
+    "crawled_at": "2026-03-24T06:26:19.932342+00:00",
+    "issuer": "https://shopify.com/authentication/2498035810",
+    "authorization_endpoint": "https://shopify.com/authentication/2498035810/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/2498035810/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/2498035810/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "nola.com",
+    "rank": 10853,
+    "crawled_at": "2026-03-24T06:28:52.067584+00:00",
+    "issuer": "https://www.nola.com/",
+    "authorization_endpoint": "https://www.nola.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.nola.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.nola.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "mova-tech.com",
+    "rank": 11143,
+    "crawled_at": "2026-03-24T06:33:23.593370+00:00",
+    "issuer": "https://shopify.com/authentication/70896713967",
+    "authorization_endpoint": "https://shopify.com/authentication/70896713967/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/70896713967/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/70896713967/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "vivintsky.com",
+    "rank": 11201,
+    "crawled_at": "2026-03-24T06:34:15.054700+00:00",
+    "issuer": "https://vivintsky.com/",
+    "authorization_endpoint": "https://vivintsky.com/oauth2/auth",
+    "token_endpoint": "https://vivintsky.com/oauth2/token",
+    "jwks_uri": "https://vivintsky.com/.well-known/jwks.json",
+    "userinfo_endpoint": "https://vivintsky.com/oauth2/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "urn:ietf:params:oauth:grant-type:device_code",
+      "impliciate",
+      "password"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "id_token token",
+      "token"
+    ]
+  },
+  {
+    "domain": "harpercollins.com",
+    "rank": 11314,
+    "crawled_at": "2026-03-24T06:36:02.227523+00:00",
+    "issuer": "https://shopify.com/authentication/28528214050",
+    "authorization_endpoint": "https://shopify.com/authentication/28528214050/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/28528214050/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/28528214050/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "august.com",
+    "rank": 11876,
+    "crawled_at": "2026-03-24T06:44:54.803752+00:00",
+    "issuer": "https://shopify.com/authentication/13547835",
+    "authorization_endpoint": "https://shopify.com/authentication/13547835/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/13547835/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/13547835/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "anotepad.com",
+    "rank": 12000,
+    "crawled_at": "2026-03-24T06:47:08.918598+00:00",
+    "issuer": "https://anotepad.com/",
+    "authorization_endpoint": "https://anotepad.com/connect/authorize",
+    "token_endpoint": "https://anotepad.com/connect/token",
+    "jwks_uri": "https://anotepad.com/.well-known/jwks",
+    "userinfo_endpoint": "https://anotepad.com/connect/userinfo",
+    "scopes_supported": [
+      "openid",
+      "offline_access",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "hackerone.com",
+    "rank": 12148,
+    "crawled_at": "2026-03-24T06:49:40.301789+00:00",
+    "issuer": "https://hackerone.com",
+    "authorization_endpoint": "https://hackerone.com/oauth/authorize",
+    "token_endpoint": "https://hackerone.com/oauth/token",
+    "jwks_uri": "https://hackerone.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://hackerone.com/oauth/userinfo",
+    "scopes_supported": [
+      "public",
+      "openid",
+      "profile",
+      "claim_flag",
+      "read_email",
+      "manage_assets",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "botslab.com",
+    "rank": 12318,
+    "crawled_at": "2026-03-24T06:52:34.698077+00:00",
+    "issuer": "https://shopify.com/authentication/72247542052",
+    "authorization_endpoint": "https://shopify.com/authentication/72247542052/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/72247542052/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/72247542052/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "stltoday.com",
+    "rank": 12356,
+    "crawled_at": "2026-03-24T06:53:17.166061+00:00",
+    "issuer": "https://www.stltoday.com/",
+    "authorization_endpoint": "https://www.stltoday.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.stltoday.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.stltoday.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "gsk.com",
+    "rank": 12437,
+    "crawled_at": "2026-03-24T06:54:38.468832+00:00",
+    "issuer": "https://gsk.com/",
+    "authorization_endpoint": "https://gsk.com/umbraco/delivery/api/v1/security/member/authorize",
+    "token_endpoint": "https://gsk.com/umbraco/delivery/api/v1/security/member/token",
+    "jwks_uri": "https://gsk.com/.well-known/jwks",
+    "userinfo_endpoint": "https://gsk.com/umbraco/delivery/api/v1/security/member/userinfo",
+    "scopes_supported": [
+      "openid",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "camp-fire.jp",
+    "rank": 12464,
+    "crawled_at": "2026-03-24T06:55:01.313976+00:00",
+    "issuer": "https://camp-fire.jp",
+    "authorization_endpoint": "https://camp-fire.jp/oauth/authorize",
+    "token_endpoint": "https://camp-fire.jp/oauth/token",
+    "jwks_uri": "https://camp-fire.jp/oauth/discovery/keys",
+    "userinfo_endpoint": "https://camp-fire.jp/oauth/userinfo",
+    "scopes_supported": [
+      "basic",
+      "openid",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "fashionnova.com",
+    "rank": 12614,
+    "crawled_at": "2026-03-24T06:57:43.397372+00:00",
+    "issuer": "https://shopify.com/authentication/2939277",
+    "authorization_endpoint": "https://account.fashionnova.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.fashionnova.com/authentication/oauth/token",
+    "jwks_uri": "https://account.fashionnova.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "dialpad.com",
+    "rank": 12787,
+    "crawled_at": "2026-03-24T07:00:29.697481+00:00",
+    "issuer": "https://dialpad.com",
+    "authorization_endpoint": "https://dialpad.com/oauth2/authorize",
+    "token_endpoint": "https://dialpad.com/oauth2/token",
+    "jwks_uri": "https://dialpad.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token",
+      "client_credentials"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "sensibo.com",
+    "rank": 13405,
+    "crawled_at": "2026-03-24T07:11:12.692376+00:00",
+    "issuer": "https://shopify.com/authentication/16696891",
+    "authorization_endpoint": "https://shopify.com/authentication/16696891/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/16696891/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/16696891/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "giva.co",
+    "rank": 13418,
+    "crawled_at": "2026-03-24T07:11:24.623126+00:00",
+    "issuer": "https://shopify.com/authentication/6183780442",
+    "authorization_endpoint": "https://shopify.com/authentication/6183780442/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/6183780442/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/6183780442/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "kunasystems.com",
+    "rank": 13514,
+    "crawled_at": "2026-03-24T07:12:57.087619+00:00",
+    "issuer": "https://shopify.com/authentication/6740629",
+    "authorization_endpoint": "https://shopify.com/authentication/6740629/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/6740629/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/6740629/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "libas.in",
+    "rank": 13564,
+    "crawled_at": "2026-03-24T07:13:49.937224+00:00",
+    "issuer": "https://shopify.com/authentication/34148057228",
+    "authorization_endpoint": "https://account.libas.in/authentication/oauth/authorize",
+    "token_endpoint": "https://account.libas.in/authentication/oauth/token",
+    "jwks_uri": "https://account.libas.in/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "stylo.pk",
+    "rank": 13629,
+    "crawled_at": "2026-03-24T07:15:06.604279+00:00",
+    "issuer": "https://shopify.com/authentication/48514597030",
+    "authorization_endpoint": "https://shopify.com/authentication/48514597030/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/48514597030/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/48514597030/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "serverfault.com",
+    "rank": 13681,
+    "crawled_at": "2026-03-24T07:16:08.320469+00:00",
+    "issuer": "https://serverfault.com",
+    "authorization_endpoint": "https://serverfault.com/oauth/authorize",
+    "token_endpoint": "https://serverfault.com/oauth/access_token",
+    "jwks_uri": "https://serverfault.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "discoverpilgrim.com",
+    "rank": 13729,
+    "crawled_at": "2026-03-24T07:16:52.216077+00:00",
+    "issuer": "https://shopify.com/authentication/62016291045",
+    "authorization_endpoint": "https://account.discoverpilgrim.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.discoverpilgrim.com/authentication/oauth/token",
+    "jwks_uri": "https://account.discoverpilgrim.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "palmonas.com",
+    "rank": 13789,
+    "crawled_at": "2026-03-24T07:17:52.425020+00:00",
+    "issuer": "https://shopify.com/authentication/61314007297",
+    "authorization_endpoint": "https://shopify.com/authentication/61314007297/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/61314007297/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/61314007297/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "nishatlinen.com",
+    "rank": 13818,
+    "crawled_at": "2026-03-24T07:18:24.404010+00:00",
+    "issuer": "https://shopify.com/authentication/53420654791",
+    "authorization_endpoint": "https://shopify.com/authentication/53420654791/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/53420654791/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/53420654791/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "nixplay.com",
+    "rank": 14146,
+    "crawled_at": "2026-03-24T07:24:07.392598+00:00",
+    "issuer": "https://shopify.com/authentication/3668553",
+    "authorization_endpoint": "https://shopify.com/authentication/3668553/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/3668553/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/3668553/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "unglobalcompact.org",
+    "rank": 14156,
+    "crawled_at": "2026-03-24T07:24:15.216584+00:00",
+    "issuer": "https://www.unglobalcompact.org",
+    "authorization_endpoint": "https://unglobalcompact.org/oauth/authorize",
+    "token_endpoint": "https://unglobalcompact.org/oauth/token",
+    "jwks_uri": "https://unglobalcompact.org/oauth/discovery/keys",
+    "userinfo_endpoint": "https://unglobalcompact.org/oauth/userinfo",
+    "scopes_supported": [
+      "public",
+      "sitemap_access",
+      "access_token",
+      "refresh_token"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "salesforce-setup.com",
+    "rank": 14294,
+    "crawled_at": "2026-03-24T07:26:42.828697+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "anaconda.com",
+    "rank": 14455,
+    "crawled_at": "2026-03-24T07:29:36.603222+00:00",
+    "issuer": "https://auth.anaconda.com/api/auth",
+    "authorization_endpoint": "https://anaconda.com/api/auth/oauth2/authorize",
+    "token_endpoint": "https://anaconda.com/api/auth/oauth2/token",
+    "jwks_uri": "https://anaconda.com/api/auth/.well-known/jwks.json",
+    "userinfo_endpoint": "https://anaconda.com/api/auth/oauth2/userinfo",
+    "scopes_supported": [
+      "profile",
+      "email",
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token",
+      "client_credentials",
+      "password",
+      "urn:ietf:params:oauth:grant-type:device_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "bodybuilding.com",
+    "rank": 14804,
+    "crawled_at": "2026-03-24T07:35:49.050169+00:00",
+    "issuer": "https://shopify.com/authentication/47133327519",
+    "authorization_endpoint": "https://shopify.com/authentication/47133327519/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/47133327519/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/47133327519/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "buffalonews.com",
+    "rank": 15234,
+    "crawled_at": "2026-03-24T07:43:06.415668+00:00",
+    "issuer": "https://buffalonews.com/",
+    "authorization_endpoint": "https://buffalonews.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://buffalonews.com/tncms/oidc/token/",
+    "jwks_uri": "https://buffalonews.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "townnews.com",
+    "rank": 15375,
+    "crawled_at": "2026-03-24T07:45:36.424001+00:00",
+    "issuer": "https://townnews.com/",
+    "authorization_endpoint": "https://townnews.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://townnews.com/tncms/oidc/token/",
+    "jwks_uri": "https://townnews.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "ionicframework.com",
+    "rank": 15486,
+    "crawled_at": "2026-03-24T07:47:34.179649+00:00",
+    "issuer": "https://ionicframework.com",
+    "authorization_endpoint": "https://ionicframework.com/oauth/authorize",
+    "token_endpoint": "https://api.ionicjs.com/oauth/token",
+    "jwks_uri": "https://api.ionicjs.com/oauth/keys",
+    "userinfo_endpoint": "https://api.ionicjs.com/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "trakt.tv",
+    "rank": 16401,
+    "crawled_at": "2026-03-24T08:04:36.617338+00:00",
+    "issuer": "https://trakt.tv",
+    "authorization_endpoint": "https://trakt.tv/oauth/authorize",
+    "token_endpoint": "https://trakt.tv/oauth/token",
+    "jwks_uri": "https://trakt.tv/oauth/discovery/keys",
+    "userinfo_endpoint": "https://trakt.tv/oauth/userinfo",
+    "scopes_supported": [
+      "public",
+      "openid",
+      "profile",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "implicit",
+      "implicit_oidc",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "postandcourier.com",
+    "rank": 16441,
+    "crawled_at": "2026-03-24T08:05:25.328172+00:00",
+    "issuer": "https://www.postandcourier.com/",
+    "authorization_endpoint": "https://www.postandcourier.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.postandcourier.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.postandcourier.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "saashr.com",
+    "rank": 16548,
+    "crawled_at": "2026-03-24T08:07:17.802191+00:00",
+    "issuer": "https://secure.saashr.com",
+    "authorization_endpoint": "https://saashr.com/ta/oauth2/authorize",
+    "token_endpoint": "https://saashr.com/ta/oauth2/token",
+    "jwks_uri": "https://saashr.com/.well-known/jwks",
+    "userinfo_endpoint": "https://saashr.com/ta/oauth2/userinfo",
+    "scopes_supported": [
+      "EmployeeWorkCalendarSync",
+      "EndPoint_Account_GET",
+      "EndPoint_Account_POST",
+      "admin-company-information-read",
+      "client-account-information-read",
+      "client-company-information-read",
+      "email",
+      "link-action-time-off",
+      "openid",
+      "profile",
+      "quick-apply"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token"
+    ]
+  },
+  {
+    "domain": "letemps.ch",
+    "rank": 16842,
+    "crawled_at": "2026-03-24T08:12:50.913623+00:00",
+    "issuer": "https://www.letemps.ch/",
+    "authorization_endpoint": "https://letemps.ch/authorize",
+    "token_endpoint": "https://letemps.ch/oauth/token",
+    "jwks_uri": "https://letemps.ch/discovery/keys",
+    "userinfo_endpoint": "https://letemps.ch/userinfo",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "comfrt.com",
+    "rank": 16851,
+    "crawled_at": "2026-03-24T08:13:02.531287+00:00",
+    "issuer": "https://shopify.com/authentication/56940298284",
+    "authorization_endpoint": "https://shopify.com/authentication/56940298284/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/56940298284/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/56940298284/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "weedmaps.com",
+    "rank": 17018,
+    "crawled_at": "2026-03-24T08:15:59.619473+00:00",
+    "issuer": "https://weedmaps.com",
+    "authorization_endpoint": "https://weedmaps.com/oauth/authorize",
+    "token_endpoint": "https://weedmaps.com/oauth/token",
+    "jwks_uri": "https://weedmaps.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://weedmaps.com/oauth/userinfo",
+    "scopes_supported": [
+      "user",
+      "public",
+      "menu_items",
+      "affinities:read",
+      "brands:read",
+      "budget_entries:write",
+      "deal_regions:read",
+      "discount_codes:read",
+      "listings:read",
+      "listing_deals:read",
+      "listing_deal_dates:read",
+      "menu_integrations:read",
+      "menu_crawl_result:read",
+      "menu_crawl_result:write",
+      "menu_integrations:credentials:read",
+      "menus:read",
+      "menus:read:all",
+      "menus:write",
+      "orders:eta:write",
+      "orders:status:write",
+      "organizations:read:all",
+      "permissions:read:all",
+      "preferred_organizations:read",
+      "preferred_organizations:write",
+      "price_rule_redemptions:write",
+      "products:classifier:read",
+      "products:read",
+      "products:reviews:read",
+      "regions:read",
+      "taxonomy:read",
+      "verified_retailers:write",
+      "sars:write",
+      "openid",
+      "email"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "password",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "teamwork.com",
+    "rank": 18033,
+    "crawled_at": "2026-03-24T08:35:30.906375+00:00",
+    "issuer": "https://www.teamwork.com/launchpad",
+    "authorization_endpoint": "https://www.teamwork.com/launchpad/login",
+    "token_endpoint": "https://www.teamwork.com/launchpad/v1/token.json",
+    "jwks_uri": "https://www.teamwork.com/launchpad/v1/certs.json",
+    "userinfo_endpoint": "https://www.teamwork.com/launchpad/v1/userinfo.json",
+    "scopes_supported": [
+      "openid",
+      "projects"
+    ],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "society6.com",
+    "rank": 18560,
+    "crawled_at": "2026-03-24T08:44:23.747574+00:00",
+    "issuer": "https://shopify.com/authentication/78102823156",
+    "authorization_endpoint": "https://account.society6.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.society6.com/authentication/oauth/token",
+    "jwks_uri": "https://account.society6.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "tucson.com",
+    "rank": 18670,
+    "crawled_at": "2026-03-24T08:46:25.286037+00:00",
+    "issuer": "https://tucson.com/",
+    "authorization_endpoint": "https://tucson.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://tucson.com/tncms/oidc/token/",
+    "jwks_uri": "https://tucson.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "base44.app",
+    "rank": 18785,
+    "crawled_at": "2026-03-24T08:48:20.723880+00:00",
+    "issuer": "https://app.base44.com",
+    "authorization_endpoint": "https://app.base44.com/oauth/authorize",
+    "token_endpoint": "https://app.base44.com/oauth/token",
+    "jwks_uri": null,
+    "userinfo_endpoint": "https://app.base44.com/oauth/userinfo",
+    "scopes_supported": [
+      "apps:read",
+      "apps:write",
+      "offline"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token",
+      "urn:ietf:params:oauth:grant-type:device_code"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "uaudio.com",
+    "rank": 18888,
+    "crawled_at": "2026-03-24T08:50:12.236985+00:00",
+    "issuer": "https://shopify.com/authentication/55817240665",
+    "authorization_endpoint": "https://shopify.com/authentication/55817240665/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/55817240665/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/55817240665/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "worldofbooks.com",
+    "rank": 19291,
+    "crawled_at": "2026-03-24T08:57:45.139349+00:00",
+    "issuer": "https://shopify.com/authentication/78440726801",
+    "authorization_endpoint": "https://shopify.com/authentication/78440726801/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/78440726801/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/78440726801/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "salutejazz.ru",
+    "rank": 19358,
+    "crawled_at": "2026-03-24T08:59:04.322576+00:00",
+    "issuer": "https://salutejazz.ru/realms/s2b",
+    "authorization_endpoint": "https://salutejazz.ru/realms/s2b/protocol/openid-connect/auth",
+    "token_endpoint": "https://salutejazz.ru/realms/s2b/protocol/openid-connect/token",
+    "jwks_uri": "https://salutejazz.ru/realms/s2b/protocol/openid-connect/certs",
+    "userinfo_endpoint": "https://salutejazz.ru/realms/s2b/protocol/openid-connect/userinfo",
+    "scopes_supported": [
+      "openid",
+      "offline_access",
+      "address",
+      "phone",
+      "microprofile-jwt",
+      "basic",
+      "roles",
+      "web-origins",
+      "profile",
+      "email",
+      "acr"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit",
+      "refresh_token",
+      "password",
+      "client_credentials",
+      "urn:openid:params:grant-type:ciba",
+      "urn:ietf:params:oauth:grant-type:token-exchange",
+      "urn:ietf:params:oauth:grant-type:device_code"
+    ],
+    "response_types_supported": [
+      "code",
+      "none",
+      "id_token",
+      "token",
+      "id_token token",
+      "code id_token",
+      "code token",
+      "code id_token token"
+    ]
+  },
+  {
+    "domain": "gymshark.com",
+    "rank": 19518,
+    "crawled_at": "2026-03-24T09:02:12.348015+00:00",
+    "issuer": "https://shopify.com/authentication/1566146",
+    "authorization_endpoint": "https://shopify.com/authentication/1566146/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/1566146/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/1566146/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "ezlo.com",
+    "rank": 20063,
+    "crawled_at": "2026-03-24T09:12:46.553490+00:00",
+    "issuer": "https://shopify.com/authentication/77146325285",
+    "authorization_endpoint": "https://shopify.com/authentication/77146325285/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/77146325285/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/77146325285/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "brilliant.tech",
+    "rank": 20180,
+    "crawled_at": "2026-03-24T09:15:04.993038+00:00",
+    "issuer": "https://shopify.com/authentication/17269935",
+    "authorization_endpoint": "https://shopify.com/authentication/17269935/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/17269935/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/17269935/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "keeptruckin.com",
+    "rank": 20261,
+    "crawled_at": "2026-03-24T09:16:45.609978+00:00",
+    "issuer": "https://account.gomotive.com",
+    "authorization_endpoint": "https://keeptruckin.com/oauth/authorize",
+    "token_endpoint": "https://keeptruckin.com/oauth/token",
+    "jwks_uri": "https://keeptruckin.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://keeptruckin.com/oauth/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "prismray.io",
+    "rank": 20297,
+    "crawled_at": "2026-03-24T09:17:25.667878+00:00",
+    "issuer": "https://auth.prismray.io/",
+    "authorization_endpoint": "https://auth.prismray.io/connect/authorize",
+    "token_endpoint": "https://auth.prismray.io/connect/token",
+    "jwks_uri": "https://auth.prismray.io/.well-known/jwks",
+    "userinfo_endpoint": "https://auth.prismray.io/connect/userinfo",
+    "scopes_supported": [
+      "openid",
+      "email",
+      "profile",
+      "offline_access",
+      "prime::entitlements"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token",
+      "client_credentials"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "nightcafe.studio",
+    "rank": 20673,
+    "crawled_at": "2026-03-24T09:24:54.727438+00:00",
+    "issuer": "https://shopify.com/authentication/27026718799",
+    "authorization_endpoint": "https://shopify.com/authentication/27026718799/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/27026718799/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/27026718799/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "lockly.com",
+    "rank": 20770,
+    "crawled_at": "2026-03-24T09:26:51.470990+00:00",
+    "issuer": "https://shopify.com/authentication/2541518907",
+    "authorization_endpoint": "https://shopify.com/authentication/2541518907/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/2541518907/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/2541518907/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "richmond.com",
+    "rank": 21123,
+    "crawled_at": "2026-03-24T09:33:29.723471+00:00",
+    "issuer": "https://richmond.com/",
+    "authorization_endpoint": "https://richmond.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://richmond.com/tncms/oidc/token/",
+    "jwks_uri": "https://richmond.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "eduvulcan.pl",
+    "rank": 21265,
+    "crawled_at": "2026-03-24T09:36:31.719690+00:00",
+    "issuer": "https://eduvulcan.pl/",
+    "authorization_endpoint": "https://eduvulcan.pl/openid-connect/authorize",
+    "token_endpoint": "https://eduvulcan.pl/openid-connect/token",
+    "jwks_uri": "https://eduvulcan.pl/openid-connect/certs",
+    "userinfo_endpoint": "https://eduvulcan.pl/openid-connect/userinfo",
+    "scopes_supported": [],
+    "grant_types_supported": [
+      "authorization_code"
+    ],
+    "response_types_supported": []
+  },
+  {
+    "domain": "madison.com",
+    "rank": 21371,
+    "crawled_at": "2026-03-24T09:38:44.368104+00:00",
+    "issuer": "https://madison.com/",
+    "authorization_endpoint": "https://madison.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://madison.com/tncms/oidc/token/",
+    "jwks_uri": "https://madison.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "forever21.com",
+    "rank": 21557,
+    "crawled_at": "2026-03-24T09:42:33.864158+00:00",
+    "issuer": "https://shopify.com/authentication/70278479906",
+    "authorization_endpoint": "https://shopify.com/authentication/70278479906/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/70278479906/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/70278479906/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "reebok.com",
+    "rank": 21584,
+    "crawled_at": "2026-03-24T09:43:11.447739+00:00",
+    "issuer": "https://shopify.com/authentication/86278340912",
+    "authorization_endpoint": "https://account.reebok.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.reebok.com/authentication/oauth/token",
+    "jwks_uri": "https://account.reebok.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "westside.com",
+    "rank": 21678,
+    "crawled_at": "2026-03-24T09:45:01.343083+00:00",
+    "issuer": "https://shopify.com/authentication/26662764597",
+    "authorization_endpoint": "https://shopify.com/authentication/26662764597/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/26662764597/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/26662764597/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "pepstores.com",
+    "rank": 21861,
+    "crawled_at": "2026-03-24T09:48:37.772135+00:00",
+    "issuer": "https://shopify.com/authentication/91862565160",
+    "authorization_endpoint": "https://shopify.com/authentication/91862565160/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/91862565160/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/91862565160/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "sfexaminer.com",
+    "rank": 21897,
+    "crawled_at": "2026-03-24T09:49:31.046889+00:00",
+    "issuer": "https://www.sfexaminer.com/",
+    "authorization_endpoint": "https://www.sfexaminer.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.sfexaminer.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.sfexaminer.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "gibson.com",
+    "rank": 21934,
+    "crawled_at": "2026-03-24T09:50:20.036046+00:00",
+    "issuer": "https://shopify.com/authentication/65939669171",
+    "authorization_endpoint": "https://account.gibson.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.gibson.com/authentication/oauth/token",
+    "jwks_uri": "https://account.gibson.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "limelight.pk",
+    "rank": 22295,
+    "crawled_at": "2026-03-24T09:57:35.184394+00:00",
+    "issuer": "https://shopify.com/authentication/26353244",
+    "authorization_endpoint": "https://shopify.com/authentication/26353244/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/26353244/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/26353244/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "ethnc.com",
+    "rank": 22368,
+    "crawled_at": "2026-03-24T09:59:01.883064+00:00",
+    "issuer": "https://shopify.com/authentication/84005355801",
+    "authorization_endpoint": "https://shopify.com/authentication/84005355801/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/84005355801/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/84005355801/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "edenrobe.com",
+    "rank": 22407,
+    "crawled_at": "2026-03-24T09:59:45.673314+00:00",
+    "issuer": "https://shopify.com/authentication/84137967889",
+    "authorization_endpoint": "https://shopify.com/authentication/84137967889/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/84137967889/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/84137967889/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "peachmode.com",
+    "rank": 22645,
+    "crawled_at": "2026-03-24T10:04:48.202860+00:00",
+    "issuer": "https://shopify.com/authentication/63748341981",
+    "authorization_endpoint": "https://account.peachmode.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.peachmode.com/authentication/oauth/token",
+    "jwks_uri": "https://account.peachmode.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "campusshoes.com",
+    "rank": 22783,
+    "crawled_at": "2026-03-24T10:07:27.092272+00:00",
+    "issuer": "https://shopify.com/authentication/60766781671",
+    "authorization_endpoint": "https://shopify.com/authentication/60766781671/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/60766781671/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/60766781671/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "omaha.com",
+    "rank": 22843,
+    "crawled_at": "2026-03-24T10:08:38.104834+00:00",
+    "issuer": "https://omaha.com/",
+    "authorization_endpoint": "https://omaha.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://omaha.com/tncms/oidc/token/",
+    "jwks_uri": "https://omaha.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "deodap.in",
+    "rank": 22879,
+    "crawled_at": "2026-03-24T10:09:24.550513+00:00",
+    "issuer": "https://shopify.com/authentication/78232846646",
+    "authorization_endpoint": "https://thankyou.deodap.in/authentication/oauth/authorize",
+    "token_endpoint": "https://thankyou.deodap.in/authentication/oauth/token",
+    "jwks_uri": "https://thankyou.deodap.in/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "aloyoga.com",
+    "rank": 22950,
+    "crawled_at": "2026-03-24T10:10:54.024325+00:00",
+    "issuer": "https://shopify.com/authentication/21852813",
+    "authorization_endpoint": "https://shopify.com/authentication/21852813/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/21852813/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/21852813/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "nzxt.com",
+    "rank": 22988,
+    "crawled_at": "2026-03-24T10:11:40.782187+00:00",
+    "issuer": "https://shopify.com/authentication/19869305",
+    "authorization_endpoint": "https://account.nzxt.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.nzxt.com/authentication/oauth/token",
+    "jwks_uri": "https://account.nzxt.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "littleboxindia.com",
+    "rank": 23017,
+    "crawled_at": "2026-03-24T10:12:20.511453+00:00",
+    "issuer": "https://shopify.com/authentication/60469575837",
+    "authorization_endpoint": "https://shopify.com/authentication/60469575837/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/60469575837/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/60469575837/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "innovist.com",
+    "rank": 23037,
+    "crawled_at": "2026-03-24T10:12:42.883708+00:00",
+    "issuer": "https://shopify.com/authentication/3960733763",
+    "authorization_endpoint": "https://shopify.com/authentication/3960733763/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/3960733763/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/3960733763/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "my-lightning-container.com",
+    "rank": 23125,
+    "crawled_at": "2026-03-24T10:14:18.734145+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "redtape.com",
+    "rank": 23164,
+    "crawled_at": "2026-03-24T10:15:05.903394+00:00",
+    "issuer": "https://shopify.com/authentication/64277872830",
+    "authorization_endpoint": "https://shopify.com/authentication/64277872830/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/64277872830/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/64277872830/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "gharsoaps.shop",
+    "rank": 23177,
+    "crawled_at": "2026-03-24T10:15:19.986653+00:00",
+    "issuer": "https://shopify.com/authentication/27831304324",
+    "authorization_endpoint": "https://shopify.com/authentication/27831304324/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/27831304324/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/27831304324/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "my-salesforce-hub.com",
+    "rank": 23902,
+    "crawled_at": "2026-03-24T10:29:47.947981+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "theadvocate.com",
+    "rank": 23906,
+    "crawled_at": "2026-03-24T10:29:53.432277+00:00",
+    "issuer": "https://www.theadvocate.com/",
+    "authorization_endpoint": "https://www.theadvocate.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.theadvocate.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.theadvocate.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "decathlon.com",
+    "rank": 24069,
+    "crawled_at": "2026-03-24T10:32:56.366262+00:00",
+    "issuer": "https://shopify.com/authentication/13306287",
+    "authorization_endpoint": "https://shopify.com/authentication/13306287/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/13306287/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/13306287/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "scienceconnect.io",
+    "rank": 25055,
+    "crawled_at": "2026-03-24T10:53:15.017614+00:00",
+    "issuer": "https://scienceconnect.io",
+    "authorization_endpoint": "https://scienceconnect.io/api/oauth/authorize",
+    "token_endpoint": "https://scienceconnect.io/api/oauth/token",
+    "jwks_uri": "https://scienceconnect.io/api/oidc/jwk.json",
+    "userinfo_endpoint": "https://scienceconnect.io/api/oauth/user",
+    "scopes_supported": [],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "idtoken"
+    ]
+  },
+  {
+    "domain": "aosulife.com",
+    "rank": 25429,
+    "crawled_at": "2026-03-24T11:01:09.903739+00:00",
+    "issuer": "https://shopify.com/authentication/61088301292",
+    "authorization_endpoint": "https://shopify.com/authentication/61088301292/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/61088301292/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/61088301292/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "cupshe.com",
+    "rank": 25507,
+    "crawled_at": "2026-03-24T11:02:44.434070+00:00",
+    "issuer": "https://shopify.com/authentication/7840207",
+    "authorization_endpoint": "https://shopify.com/authentication/7840207/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/7840207/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/7840207/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "thebodyshop.com",
+    "rank": 25588,
+    "crawled_at": "2026-03-24T11:04:37.522699+00:00",
+    "issuer": "https://shopify.com/authentication/84066795785",
+    "authorization_endpoint": "https://account.thebodyshop.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.thebodyshop.com/authentication/oauth/token",
+    "jwks_uri": "https://account.thebodyshop.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "hulkapps.com",
+    "rank": 25751,
+    "crawled_at": "2026-03-24T11:08:06.174076+00:00",
+    "issuer": "https://shopify.com/authentication/15647647",
+    "authorization_endpoint": "https://shopify.com/authentication/15647647/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/15647647/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/15647647/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "stadiumgoods.com",
+    "rank": 25859,
+    "crawled_at": "2026-03-24T11:10:30.546120+00:00",
+    "issuer": "https://shopify.com/authentication/65911685316",
+    "authorization_endpoint": "https://shopify.com/authentication/65911685316/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/65911685316/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/65911685316/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "wfmz.com",
+    "rank": 25925,
+    "crawled_at": "2026-03-24T11:11:53.595156+00:00",
+    "issuer": "https://www.wfmz.com/",
+    "authorization_endpoint": "https://www.wfmz.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.wfmz.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.wfmz.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "exceedlms.com",
+    "rank": 26069,
+    "crawled_at": "2026-03-24T11:14:40.095636+00:00",
+    "issuer": "https://exceedlms.com/oauth2",
+    "authorization_endpoint": "https://exceedlms.com/oauth2/authorize",
+    "token_endpoint": "https://exceedlms.com/oauth2/token",
+    "jwks_uri": null,
+    "userinfo_endpoint": "https://exceedlms.com/widgets/openid_connect/empty_userinfo",
+    "scopes_supported": [
+      "ai_agent",
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "password",
+      "refresh_token",
+      "urn:ietf:params:oauth:grant-type:jwt-bearer"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "golfgenius.com",
+    "rank": 26429,
+    "crawled_at": "2026-03-24T11:22:09.719489+00:00",
+    "issuer": "https://www.golfgenius.com",
+    "authorization_endpoint": "https://golfgenius.com/oauth/authorize",
+    "token_endpoint": "https://golfgenius.com/oauth/token",
+    "jwks_uri": "https://golfgenius.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://golfgenius.com/oauth/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit_oidc",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "raceroster.com",
+    "rank": 26511,
+    "crawled_at": "2026-03-24T11:23:43.909567+00:00",
+    "issuer": "https://auth.raceroster.com",
+    "authorization_endpoint": "https://raceroster.com/oauth/authorize",
+    "token_endpoint": "https://raceroster.com/oauth/token",
+    "jwks_uri": "https://auth.raceroster.com/.well-known/jwks.json",
+    "userinfo_endpoint": "https://raceroster.com/oauth/userinfo",
+    "scopes_supported": [
+      "openid",
+      "address",
+      "profile",
+      "phone",
+      "email",
+      "offline_access"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "lacrossetechnology.com",
+    "rank": 26586,
+    "crawled_at": "2026-03-24T11:25:23.094934+00:00",
+    "issuer": "https://shopify.com/authentication/3574431790",
+    "authorization_endpoint": "https://shopify.com/authentication/3574431790/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/3574431790/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/3574431790/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "vwthemes.com",
+    "rank": 26931,
+    "crawled_at": "2026-03-24T11:33:14.627706+00:00",
+    "issuer": "https://shopify.com/authentication/69582225655",
+    "authorization_endpoint": "https://shopify.com/authentication/69582225655/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/69582225655/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/69582225655/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "tulsaworld.com",
+    "rank": 27005,
+    "crawled_at": "2026-03-24T11:34:59.031002+00:00",
+    "issuer": "https://tulsaworld.com/",
+    "authorization_endpoint": "https://tulsaworld.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://tulsaworld.com/tncms/oidc/token/",
+    "jwks_uri": "https://tulsaworld.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "versobooks.com",
+    "rank": 27168,
+    "crawled_at": "2026-03-24T11:38:33.744020+00:00",
+    "issuer": "https://shopify.com/authentication/56938692669",
+    "authorization_endpoint": "https://account.versobooks.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.versobooks.com/authentication/oauth/token",
+    "jwks_uri": "https://account.versobooks.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "historicengland.org.uk",
+    "rank": 27260,
+    "crawled_at": "2026-03-24T11:40:39.318874+00:00",
+    "issuer": "https://historicengland.org.uk/",
+    "authorization_endpoint": "https://historicengland.org.uk/umbraco/delivery/api/v1/security/member/authorize",
+    "token_endpoint": "https://historicengland.org.uk/umbraco/delivery/api/v1/security/member/token",
+    "jwks_uri": "https://historicengland.org.uk/.well-known/jwks",
+    "userinfo_endpoint": "https://historicengland.org.uk/umbraco/delivery/api/v1/security/member/userinfo",
+    "scopes_supported": [
+      "openid",
+      "offline_access"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "davidsbridal.com",
+    "rank": 27261,
+    "crawled_at": "2026-03-24T11:40:41.315666+00:00",
+    "issuer": "https://shopify.com/authentication/66490040413",
+    "authorization_endpoint": "https://shopify.com/authentication/66490040413/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/66490040413/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/66490040413/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "fashionphile.com",
+    "rank": 27365,
+    "crawled_at": "2026-03-24T11:43:07.742201+00:00",
+    "issuer": "https://shopify.com/authentication/89431867695",
+    "authorization_endpoint": "https://my.fashionphile.com/authentication/oauth/authorize",
+    "token_endpoint": "https://my.fashionphile.com/authentication/oauth/token",
+    "jwks_uri": "https://my.fashionphile.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "hotdoc.com.au",
+    "rank": 27503,
+    "crawled_at": "2026-03-24T11:46:05.323734+00:00",
+    "issuer": "https://www.hotdoc.com.au",
+    "authorization_endpoint": "https://hotdoc.com.au/oauth/authorize",
+    "token_endpoint": "https://hotdoc.com.au/oauth/token",
+    "jwks_uri": "https://hotdoc.com.au/oauth/discovery/keys",
+    "userinfo_endpoint": "https://hotdoc.com.au/oauth/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit_oidc"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "morenutrition.de",
+    "rank": 27576,
+    "crawled_at": "2026-03-24T11:47:37.050182+00:00",
+    "issuer": "https://shopify.com/authentication/50375360676",
+    "authorization_endpoint": "https://shopify.com/authentication/50375360676/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/50375360676/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/50375360676/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "forceusercontent.com",
+    "rank": 27794,
+    "crawled_at": "2026-03-24T11:52:21.982089+00:00",
+    "issuer": "https://login.salesforce.com",
+    "authorization_endpoint": "https://login.salesforce.com/services/oauth2/authorize",
+    "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
+    "jwks_uri": "https://login.salesforce.com/id/keys",
+    "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo",
+    "scopes_supported": [
+      "cdp_ingest_api",
+      "custom_permissions",
+      "cdp_segment_api",
+      "content",
+      "cdp_api",
+      "chatbot_api",
+      "cdp_identityresolution_api",
+      "interaction_api",
+      "wave_api",
+      "web",
+      "cdp_calculated_insight_api",
+      "einstein_gpt_api",
+      "offline_access",
+      "id",
+      "api",
+      "eclair_api",
+      "email",
+      "pardot_api",
+      "lightning",
+      "visualforce",
+      "cdp_query_api",
+      "sfap_api",
+      "address",
+      "openid",
+      "profile",
+      "scrt_api",
+      "cdp_profile_api",
+      "refresh_token",
+      "phone",
+      "user_registration_api",
+      "pwdless_login_api",
+      "chatter_api",
+      "mcp_api",
+      "full",
+      "forgot_password"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "greatergood.com",
+    "rank": 27890,
+    "crawled_at": "2026-03-24T11:54:06.872659+00:00",
+    "issuer": "https://shopify.com/authentication/11850798",
+    "authorization_endpoint": "https://shopify.com/authentication/11850798/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/11850798/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/11850798/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "everlane.com",
+    "rank": 28064,
+    "crawled_at": "2026-03-24T11:58:01.633827+00:00",
+    "issuer": "https://shopify.com/authentication/62379163734",
+    "authorization_endpoint": "https://account.everlane.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.everlane.com/authentication/oauth/token",
+    "jwks_uri": "https://account.everlane.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "shopcircle.co",
+    "rank": 28438,
+    "crawled_at": "2026-03-24T12:06:25.361334+00:00",
+    "issuer": "https://shopify.com/authentication/63536791706",
+    "authorization_endpoint": "https://shopify.com/authentication/63536791706/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/63536791706/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/63536791706/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "xtool.com",
+    "rank": 28733,
+    "crawled_at": "2026-03-24T12:12:53.183390+00:00",
+    "issuer": "https://shopify.com/authentication/46779859095",
+    "authorization_endpoint": "https://shopify.com/authentication/46779859095/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/46779859095/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/46779859095/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "facethefuture.store",
+    "rank": 28808,
+    "crawled_at": "2026-03-24T12:14:50.650520+00:00",
+    "issuer": "https://shopify.com/authentication/41954476194",
+    "authorization_endpoint": "https://account.facethefuture.co.uk/authentication/oauth/authorize",
+    "token_endpoint": "https://account.facethefuture.co.uk/authentication/oauth/token",
+    "jwks_uri": "https://account.facethefuture.co.uk/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "stevemadden.com",
+    "rank": 28866,
+    "crawled_at": "2026-03-24T12:16:13.908556+00:00",
+    "issuer": "https://shopify.com/authentication/21708465",
+    "authorization_endpoint": "https://account.stevemadden.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.stevemadden.com/authentication/oauth/token",
+    "jwks_uri": "https://account.stevemadden.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "flair.co",
+    "rank": 28880,
+    "crawled_at": "2026-03-24T12:16:36.190244+00:00",
+    "issuer": "https://shopify.com/authentication/11167826",
+    "authorization_endpoint": "https://account.flair.co/authentication/oauth/authorize",
+    "token_endpoint": "https://account.flair.co/authentication/oauth/token",
+    "jwks_uri": "https://account.flair.co/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "shrinetheme.com",
+    "rank": 29115,
+    "crawled_at": "2026-03-24T12:22:11.332285+00:00",
+    "issuer": "https://shopify.com/authentication/72674705737",
+    "authorization_endpoint": "https://account.shrinesolutions.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.shrinesolutions.com/authentication/oauth/token",
+    "jwks_uri": "https://account.shrinesolutions.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "lancasteronline.com",
+    "rank": 29230,
+    "crawled_at": "2026-03-24T12:24:46.551277+00:00",
+    "issuer": "https://lancasteronline.com/",
+    "authorization_endpoint": "https://lancasteronline.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://lancasteronline.com/tncms/oidc/token/",
+    "jwks_uri": "https://lancasteronline.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "stanley1913.com",
+    "rank": 29715,
+    "crawled_at": "2026-03-24T12:35:54.635164+00:00",
+    "issuer": "https://shopify.com/authentication/37532696635",
+    "authorization_endpoint": "https://shopify.com/authentication/37532696635/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/37532696635/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/37532696635/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "toysrus.com",
+    "rank": 30357,
+    "crawled_at": "2026-03-24T12:51:08.716692+00:00",
+    "issuer": "https://shopify.com/authentication/67504767192",
+    "authorization_endpoint": "https://accounts.toysrus.com/authentication/oauth/authorize",
+    "token_endpoint": "https://accounts.toysrus.com/authentication/oauth/token",
+    "jwks_uri": "https://accounts.toysrus.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "mccormick.com",
+    "rank": 30489,
+    "crawled_at": "2026-03-24T12:53:59.838929+00:00",
+    "issuer": "https://shopify.com/authentication/68642832583",
+    "authorization_endpoint": "https://shopify.com/authentication/68642832583/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/68642832583/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/68642832583/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "framagit.org",
+    "rank": 30511,
+    "crawled_at": "2026-03-24T12:54:27.789437+00:00",
+    "issuer": "https://framagit.org",
+    "authorization_endpoint": "https://framagit.org/oauth/authorize",
+    "token_endpoint": "https://framagit.org/oauth/token",
+    "jwks_uri": "https://framagit.org/oauth/discovery/keys",
+    "userinfo_endpoint": "https://framagit.org/oauth/userinfo",
+    "scopes_supported": [
+      "api",
+      "read_api",
+      "read_user",
+      "create_runner",
+      "manage_runner",
+      "k8s_proxy",
+      "self_rotate",
+      "mcp",
+      "mcp_orbit",
+      "read_repository",
+      "write_repository",
+      "read_observability",
+      "write_observability",
+      "ai_features",
+      "sudo",
+      "admin_mode",
+      "read_service_ping",
+      "openid",
+      "profile",
+      "email",
+      "ai_workflows",
+      "user:*"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "password",
+      "client_credentials",
+      "device_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "tradovateapi.com",
+    "rank": 31046,
+    "crawled_at": "2026-03-24T13:07:08.990604+00:00",
+    "issuer": "https://live.tradovateapi.com",
+    "authorization_endpoint": "https://trader.tradovate.com/oauth",
+    "token_endpoint": "https://live.tradovateapi.com/auth/oauthtoken",
+    "jwks_uri": "https://live.tradovateapi.com/auth/jwks",
+    "userinfo_endpoint": "https://live.tradovateapi.com/userinfo",
+    "scopes_supported": [
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "implicit"
+    ],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "signup.com",
+    "rank": 31062,
+    "crawled_at": "2026-03-24T13:07:34.277889+00:00",
+    "issuer": "https://signup.com",
+    "authorization_endpoint": "https://signup.com/oauth/authorize",
+    "token_endpoint": "https://signup.com/oauth/token",
+    "jwks_uri": "https://signup.com/oauth/discovery/keys",
+    "userinfo_endpoint": "https://signup.com/oauth/userinfo",
+    "scopes_supported": [
+      "read",
+      "admin",
+      "write",
+      "update",
+      "openid"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "implicit_oidc",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code",
+      "token",
+      "id_token",
+      "id_token token"
+    ]
+  },
+  {
+    "domain": "thespec.com",
+    "rank": 31132,
+    "crawled_at": "2026-03-24T13:09:12.325236+00:00",
+    "issuer": "https://www.thespec.com/",
+    "authorization_endpoint": "https://www.thespec.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.thespec.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.thespec.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "wdrb.com",
+    "rank": 31159,
+    "crawled_at": "2026-03-24T13:09:50.331424+00:00",
+    "issuer": "https://www.wdrb.com/",
+    "authorization_endpoint": "https://www.wdrb.com/tncms/oidc/authorize/",
+    "token_endpoint": "https://www.wdrb.com/tncms/oidc/token/",
+    "jwks_uri": "https://www.wdrb.com/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "email",
+      "profile",
+      "anonymous"
+    ],
+    "grant_types_supported": [],
+    "response_types_supported": [
+      "code",
+      "id_token",
+      "token id_token"
+    ]
+  },
+  {
+    "domain": "antik.sk",
+    "rank": 31276,
+    "crawled_at": "2026-03-24T13:12:35.406983+00:00",
+    "issuer": "https://shopify.com/authentication/73108881710",
+    "authorization_endpoint": "https://shopify.com/authentication/73108881710/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/73108881710/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/73108881710/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "hunter.io",
+    "rank": 31334,
+    "crawled_at": "2026-03-24T13:13:52.481176+00:00",
+    "issuer": "https://hunter.io",
+    "authorization_endpoint": "https://hunter.io/oauth/authorize",
+    "token_endpoint": "https://hunter.io/oauth/token",
+    "jwks_uri": "https://hunter.io/oauth/discovery/keys",
+    "userinfo_endpoint": "https://hunter.io/oauth/userinfo",
+    "scopes_supported": [
+      "read",
+      "write"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "client_credentials",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "32degrees.com",
+    "rank": 31379,
+    "crawled_at": "2026-03-24T13:14:50.975487+00:00",
+    "issuer": "https://shopify.com/authentication/13261029",
+    "authorization_endpoint": "https://account.32degrees.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.32degrees.com/authentication/oauth/token",
+    "jwks_uri": "https://account.32degrees.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "dickies.com",
+    "rank": 31465,
+    "crawled_at": "2026-03-24T13:16:54.790833+00:00",
+    "issuer": "https://shopify.com/authentication/69257527484",
+    "authorization_endpoint": "https://account.dickies.com/authentication/oauth/authorize",
+    "token_endpoint": "https://account.dickies.com/authentication/oauth/token",
+    "jwks_uri": "https://account.dickies.com/authentication/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  },
+  {
+    "domain": "noondaycollection.com",
+    "rank": 31625,
+    "crawled_at": "2026-03-24T13:20:43.260052+00:00",
+    "issuer": "https://shopify.com/authentication/80490004766",
+    "authorization_endpoint": "https://shopify.com/authentication/80490004766/oauth/authorize",
+    "token_endpoint": "https://shopify.com/authentication/80490004766/oauth/token",
+    "jwks_uri": "https://shopify.com/authentication/80490004766/.well-known/jwks.json",
+    "userinfo_endpoint": null,
+    "scopes_supported": [
+      "openid",
+      "email",
+      "customer-account-api:full",
+      "customer-account-mcp-api:full"
+    ],
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "response_types_supported": [
+      "code"
+    ]
+  }
+]
